@@ -60,6 +60,18 @@ GL/glext.h
 GL/glu.h
 -
 
+../include/Renderer.h
+GLFW/glfw3.h
+-
+
+/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/src/Renderer.cpp
+glad/glad.h
+-
+iostream
+-
+Renderer.h
+/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/src/Renderer.h
+
 /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/src/main.cpp
 glad/glad.h
 -
@@ -67,4 +79,6 @@ GLFW/glfw3.h
 -
 iostream
 -
+Renderer.h
+/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/src/Renderer.h
 

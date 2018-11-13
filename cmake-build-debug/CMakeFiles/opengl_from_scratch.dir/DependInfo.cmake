@@ -18,6 +18,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../external/glm"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/src/Renderer.cpp" "/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles/opengl_from_scratch.dir/src/Renderer.cpp.o"
   "/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/src/main.cpp" "/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles/opengl_from_scratch.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

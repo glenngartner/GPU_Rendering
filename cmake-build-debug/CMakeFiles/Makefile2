@@ -435,7 +435,7 @@ clean: external/glfw/glfw-3.2.1/examples/CMakeFiles/boing.dir/clean
 external/glfw/glfw-3.2.1/examples/CMakeFiles/simple.dir/all: external/glfw/glfw-3.2.1/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f external/glfw/glfw-3.2.1/examples/CMakeFiles/simple.dir/build.make external/glfw/glfw-3.2.1/examples/CMakeFiles/simple.dir/depend
 	$(MAKE) -f external/glfw/glfw-3.2.1/examples/CMakeFiles/simple.dir/build.make external/glfw/glfw-3.2.1/examples/CMakeFiles/simple.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num= "Built target simple"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=21 "Built target simple"
 .PHONY : external/glfw/glfw-3.2.1/examples/CMakeFiles/simple.dir/all
 
 # Include target in all.
@@ -445,7 +445,7 @@ all: external/glfw/glfw-3.2.1/examples/CMakeFiles/simple.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw/glfw-3.2.1/examples/CMakeFiles/simple.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 external/glfw/glfw-3.2.1/examples/CMakeFiles/simple.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 .PHONY : external/glfw/glfw-3.2.1/examples/CMakeFiles/simple.dir/rule
@@ -472,7 +472,7 @@ clean: external/glfw/glfw-3.2.1/examples/CMakeFiles/simple.dir/clean
 external/glfw/glfw-3.2.1/examples/CMakeFiles/splitview.dir/all: external/glfw/glfw-3.2.1/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f external/glfw/glfw-3.2.1/examples/CMakeFiles/splitview.dir/build.make external/glfw/glfw-3.2.1/examples/CMakeFiles/splitview.dir/depend
 	$(MAKE) -f external/glfw/glfw-3.2.1/examples/CMakeFiles/splitview.dir/build.make external/glfw/glfw-3.2.1/examples/CMakeFiles/splitview.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=21 "Built target splitview"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num= "Built target splitview"
 .PHONY : external/glfw/glfw-3.2.1/examples/CMakeFiles/splitview.dir/all
 
 # Include target in all.
@@ -482,7 +482,7 @@ all: external/glfw/glfw-3.2.1/examples/CMakeFiles/splitview.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw/glfw-3.2.1/examples/CMakeFiles/splitview.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 external/glfw/glfw-3.2.1/examples/CMakeFiles/splitview.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 .PHONY : external/glfw/glfw-3.2.1/examples/CMakeFiles/splitview.dir/rule
@@ -1536,7 +1536,7 @@ external/glm/test/core/preinstall:
 external/glm/test/core/CMakeFiles/test-core_type_mat3x3.dir/all:
 	$(MAKE) -f external/glm/test/core/CMakeFiles/test-core_type_mat3x3.dir/build.make external/glm/test/core/CMakeFiles/test-core_type_mat3x3.dir/depend
 	$(MAKE) -f external/glm/test/core/CMakeFiles/test-core_type_mat3x3.dir/build.make external/glm/test/core/CMakeFiles/test-core_type_mat3x3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num= "Built target test-core_type_mat3x3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=41 "Built target test-core_type_mat3x3"
 .PHONY : external/glm/test/core/CMakeFiles/test-core_type_mat3x3.dir/all
 
 # Include target in all.
@@ -1546,7 +1546,7 @@ all: external/glm/test/core/CMakeFiles/test-core_type_mat3x3.dir/all
 
 # Build rule for subdir invocation for target.
 external/glm/test/core/CMakeFiles/test-core_type_mat3x3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 external/glm/test/core/CMakeFiles/test-core_type_mat3x3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 .PHONY : external/glm/test/core/CMakeFiles/test-core_type_mat3x3.dir/rule
@@ -1795,7 +1795,7 @@ clean: external/glm/test/core/CMakeFiles/test-core_type_length.dir/clean
 external/glm/test/core/CMakeFiles/test-core_type_mat4x2.dir/all:
 	$(MAKE) -f external/glm/test/core/CMakeFiles/test-core_type_mat4x2.dir/build.make external/glm/test/core/CMakeFiles/test-core_type_mat4x2.dir/depend
 	$(MAKE) -f external/glm/test/core/CMakeFiles/test-core_type_mat4x2.dir/build.make external/glm/test/core/CMakeFiles/test-core_type_mat4x2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num= "Built target test-core_type_mat4x2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=42 "Built target test-core_type_mat4x2"
 .PHONY : external/glm/test/core/CMakeFiles/test-core_type_mat4x2.dir/all
 
 # Include target in all.
@@ -1805,7 +1805,7 @@ all: external/glm/test/core/CMakeFiles/test-core_type_mat4x2.dir/all
 
 # Build rule for subdir invocation for target.
 external/glm/test/core/CMakeFiles/test-core_type_mat4x2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 external/glm/test/core/CMakeFiles/test-core_type_mat4x2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 .PHONY : external/glm/test/core/CMakeFiles/test-core_type_mat4x2.dir/rule
@@ -1943,7 +1943,7 @@ clean: external/glm/test/core/CMakeFiles/test-core_force_inline.dir/clean
 external/glm/test/core/CMakeFiles/test-core_type_mat3x4.dir/all:
 	$(MAKE) -f external/glm/test/core/CMakeFiles/test-core_type_mat3x4.dir/build.make external/glm/test/core/CMakeFiles/test-core_type_mat3x4.dir/depend
 	$(MAKE) -f external/glm/test/core/CMakeFiles/test-core_type_mat3x4.dir/build.make external/glm/test/core/CMakeFiles/test-core_type_mat3x4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=41 "Built target test-core_type_mat3x4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num= "Built target test-core_type_mat3x4"
 .PHONY : external/glm/test/core/CMakeFiles/test-core_type_mat3x4.dir/all
 
 # Include target in all.
@@ -1953,7 +1953,7 @@ all: external/glm/test/core/CMakeFiles/test-core_type_mat3x4.dir/all
 
 # Build rule for subdir invocation for target.
 external/glm/test/core/CMakeFiles/test-core_type_mat3x4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 external/glm/test/core/CMakeFiles/test-core_type_mat3x4.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 .PHONY : external/glm/test/core/CMakeFiles/test-core_type_mat3x4.dir/rule
@@ -1980,7 +1980,7 @@ clean: external/glm/test/core/CMakeFiles/test-core_type_mat3x4.dir/clean
 external/glm/test/core/CMakeFiles/test-core_type_mat4x3.dir/all:
 	$(MAKE) -f external/glm/test/core/CMakeFiles/test-core_type_mat4x3.dir/build.make external/glm/test/core/CMakeFiles/test-core_type_mat4x3.dir/depend
 	$(MAKE) -f external/glm/test/core/CMakeFiles/test-core_type_mat4x3.dir/build.make external/glm/test/core/CMakeFiles/test-core_type_mat4x3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=42 "Built target test-core_type_mat4x3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num= "Built target test-core_type_mat4x3"
 .PHONY : external/glm/test/core/CMakeFiles/test-core_type_mat4x3.dir/all
 
 # Include target in all.
@@ -1990,7 +1990,7 @@ all: external/glm/test/core/CMakeFiles/test-core_type_mat4x3.dir/all
 
 # Build rule for subdir invocation for target.
 external/glm/test/core/CMakeFiles/test-core_type_mat4x3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 external/glm/test/core/CMakeFiles/test-core_type_mat4x3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 .PHONY : external/glm/test/core/CMakeFiles/test-core_type_mat4x3.dir/rule
@@ -2017,7 +2017,7 @@ clean: external/glm/test/core/CMakeFiles/test-core_type_mat4x3.dir/clean
 external/glm/test/core/CMakeFiles/test-core_force_unrestricted_gentype.dir/all:
 	$(MAKE) -f external/glm/test/core/CMakeFiles/test-core_force_unrestricted_gentype.dir/build.make external/glm/test/core/CMakeFiles/test-core_force_unrestricted_gentype.dir/depend
 	$(MAKE) -f external/glm/test/core/CMakeFiles/test-core_force_unrestricted_gentype.dir/build.make external/glm/test/core/CMakeFiles/test-core_force_unrestricted_gentype.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num= "Built target test-core_force_unrestricted_gentype"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=27 "Built target test-core_force_unrestricted_gentype"
 .PHONY : external/glm/test/core/CMakeFiles/test-core_force_unrestricted_gentype.dir/all
 
 # Include target in all.
@@ -2027,7 +2027,7 @@ all: external/glm/test/core/CMakeFiles/test-core_force_unrestricted_gentype.dir/
 
 # Build rule for subdir invocation for target.
 external/glm/test/core/CMakeFiles/test-core_force_unrestricted_gentype.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 external/glm/test/core/CMakeFiles/test-core_force_unrestricted_gentype.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 .PHONY : external/glm/test/core/CMakeFiles/test-core_force_unrestricted_gentype.dir/rule
@@ -2202,7 +2202,7 @@ clean: external/glm/test/core/CMakeFiles/test-core_setup_platform_unknown.dir/cl
 external/glm/test/core/CMakeFiles/test-core_force_xyzw_only.dir/all:
 	$(MAKE) -f external/glm/test/core/CMakeFiles/test-core_force_xyzw_only.dir/build.make external/glm/test/core/CMakeFiles/test-core_force_xyzw_only.dir/depend
 	$(MAKE) -f external/glm/test/core/CMakeFiles/test-core_force_xyzw_only.dir/build.make external/glm/test/core/CMakeFiles/test-core_force_xyzw_only.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=27 "Built target test-core_force_xyzw_only"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num= "Built target test-core_force_xyzw_only"
 .PHONY : external/glm/test/core/CMakeFiles/test-core_force_xyzw_only.dir/all
 
 # Include target in all.
@@ -2212,7 +2212,7 @@ all: external/glm/test/core/CMakeFiles/test-core_force_xyzw_only.dir/all
 
 # Build rule for subdir invocation for target.
 external/glm/test/core/CMakeFiles/test-core_force_xyzw_only.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 external/glm/test/core/CMakeFiles/test-core_force_xyzw_only.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 .PHONY : external/glm/test/core/CMakeFiles/test-core_force_xyzw_only.dir/rule
@@ -2239,7 +2239,7 @@ clean: external/glm/test/core/CMakeFiles/test-core_force_xyzw_only.dir/clean
 external/glm/test/core/CMakeFiles/test-core_func_integer.dir/all:
 	$(MAKE) -f external/glm/test/core/CMakeFiles/test-core_func_integer.dir/build.make external/glm/test/core/CMakeFiles/test-core_func_integer.dir/depend
 	$(MAKE) -f external/glm/test/core/CMakeFiles/test-core_func_integer.dir/build.make external/glm/test/core/CMakeFiles/test-core_func_integer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=29 "Built target test-core_func_integer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num= "Built target test-core_func_integer"
 .PHONY : external/glm/test/core/CMakeFiles/test-core_func_integer.dir/all
 
 # Include target in all.
@@ -2249,7 +2249,7 @@ all: external/glm/test/core/CMakeFiles/test-core_func_integer.dir/all
 
 # Build rule for subdir invocation for target.
 external/glm/test/core/CMakeFiles/test-core_func_integer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 external/glm/test/core/CMakeFiles/test-core_func_integer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 .PHONY : external/glm/test/core/CMakeFiles/test-core_func_integer.dir/rule
@@ -2350,7 +2350,7 @@ clean: external/glm/test/core/CMakeFiles/test-core_setup_force_cxx98.dir/clean
 external/glm/test/core/CMakeFiles/test-core_type_vec1.dir/all:
 	$(MAKE) -f external/glm/test/core/CMakeFiles/test-core_type_vec1.dir/build.make external/glm/test/core/CMakeFiles/test-core_type_vec1.dir/depend
 	$(MAKE) -f external/glm/test/core/CMakeFiles/test-core_type_vec1.dir/build.make external/glm/test/core/CMakeFiles/test-core_type_vec1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=43 "Built target test-core_type_vec1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num= "Built target test-core_type_vec1"
 .PHONY : external/glm/test/core/CMakeFiles/test-core_type_vec1.dir/all
 
 # Include target in all.
@@ -2360,7 +2360,7 @@ all: external/glm/test/core/CMakeFiles/test-core_type_vec1.dir/all
 
 # Build rule for subdir invocation for target.
 external/glm/test/core/CMakeFiles/test-core_type_vec1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 external/glm/test/core/CMakeFiles/test-core_type_vec1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 .PHONY : external/glm/test/core/CMakeFiles/test-core_type_vec1.dir/rule
@@ -2572,7 +2572,7 @@ clean: external/glm/test/core/CMakeFiles/test-core_type_vec4.dir/clean
 external/glm/test/core/CMakeFiles/test-core_func_common.dir/all:
 	$(MAKE) -f external/glm/test/core/CMakeFiles/test-core_func_common.dir/build.make external/glm/test/core/CMakeFiles/test-core_func_common.dir/depend
 	$(MAKE) -f external/glm/test/core/CMakeFiles/test-core_func_common.dir/build.make external/glm/test/core/CMakeFiles/test-core_func_common.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num= "Built target test-core_func_common"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=28 "Built target test-core_func_common"
 .PHONY : external/glm/test/core/CMakeFiles/test-core_func_common.dir/all
 
 # Include target in all.
@@ -2582,7 +2582,7 @@ all: external/glm/test/core/CMakeFiles/test-core_func_common.dir/all
 
 # Build rule for subdir invocation for target.
 external/glm/test/core/CMakeFiles/test-core_func_common.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 external/glm/test/core/CMakeFiles/test-core_func_common.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 .PHONY : external/glm/test/core/CMakeFiles/test-core_func_common.dir/rule
@@ -2646,7 +2646,7 @@ clean: external/glm/test/core/CMakeFiles/test-core_setup_precision.dir/clean
 external/glm/test/core/CMakeFiles/test-core_func_exponential.dir/all:
 	$(MAKE) -f external/glm/test/core/CMakeFiles/test-core_func_exponential.dir/build.make external/glm/test/core/CMakeFiles/test-core_func_exponential.dir/depend
 	$(MAKE) -f external/glm/test/core/CMakeFiles/test-core_func_exponential.dir/build.make external/glm/test/core/CMakeFiles/test-core_func_exponential.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=28 "Built target test-core_func_exponential"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num= "Built target test-core_func_exponential"
 .PHONY : external/glm/test/core/CMakeFiles/test-core_func_exponential.dir/all
 
 # Include target in all.
@@ -2656,7 +2656,7 @@ all: external/glm/test/core/CMakeFiles/test-core_func_exponential.dir/all
 
 # Build rule for subdir invocation for target.
 external/glm/test/core/CMakeFiles/test-core_func_exponential.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 external/glm/test/core/CMakeFiles/test-core_func_exponential.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 .PHONY : external/glm/test/core/CMakeFiles/test-core_func_exponential.dir/rule
@@ -2683,7 +2683,7 @@ clean: external/glm/test/core/CMakeFiles/test-core_func_exponential.dir/clean
 external/glm/test/core/CMakeFiles/test-core_func_geometric.dir/all:
 	$(MAKE) -f external/glm/test/core/CMakeFiles/test-core_func_geometric.dir/build.make external/glm/test/core/CMakeFiles/test-core_func_geometric.dir/depend
 	$(MAKE) -f external/glm/test/core/CMakeFiles/test-core_func_geometric.dir/build.make external/glm/test/core/CMakeFiles/test-core_func_geometric.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num= "Built target test-core_func_geometric"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=29 "Built target test-core_func_geometric"
 .PHONY : external/glm/test/core/CMakeFiles/test-core_func_geometric.dir/all
 
 # Include target in all.
@@ -2693,7 +2693,7 @@ all: external/glm/test/core/CMakeFiles/test-core_func_geometric.dir/all
 
 # Build rule for subdir invocation for target.
 external/glm/test/core/CMakeFiles/test-core_func_geometric.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 external/glm/test/core/CMakeFiles/test-core_func_geometric.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 .PHONY : external/glm/test/core/CMakeFiles/test-core_func_geometric.dir/rule
@@ -2757,7 +2757,7 @@ clean: external/glm/test/core/CMakeFiles/test-core_func_noise.dir/clean
 external/glm/test/core/CMakeFiles/test-core_func_integer_bit_count.dir/all:
 	$(MAKE) -f external/glm/test/core/CMakeFiles/test-core_func_integer_bit_count.dir/build.make external/glm/test/core/CMakeFiles/test-core_func_integer_bit_count.dir/depend
 	$(MAKE) -f external/glm/test/core/CMakeFiles/test-core_func_integer_bit_count.dir/build.make external/glm/test/core/CMakeFiles/test-core_func_integer_bit_count.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num= "Built target test-core_func_integer_bit_count"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=30 "Built target test-core_func_integer_bit_count"
 .PHONY : external/glm/test/core/CMakeFiles/test-core_func_integer_bit_count.dir/all
 
 # Include target in all.
@@ -2767,7 +2767,7 @@ all: external/glm/test/core/CMakeFiles/test-core_func_integer_bit_count.dir/all
 
 # Build rule for subdir invocation for target.
 external/glm/test/core/CMakeFiles/test-core_func_integer_bit_count.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 external/glm/test/core/CMakeFiles/test-core_func_integer_bit_count.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 .PHONY : external/glm/test/core/CMakeFiles/test-core_func_integer_bit_count.dir/rule
@@ -2794,7 +2794,7 @@ clean: external/glm/test/core/CMakeFiles/test-core_func_integer_bit_count.dir/cl
 external/glm/test/core/CMakeFiles/test-core_func_integer_find_lsb.dir/all:
 	$(MAKE) -f external/glm/test/core/CMakeFiles/test-core_func_integer_find_lsb.dir/build.make external/glm/test/core/CMakeFiles/test-core_func_integer_find_lsb.dir/depend
 	$(MAKE) -f external/glm/test/core/CMakeFiles/test-core_func_integer_find_lsb.dir/build.make external/glm/test/core/CMakeFiles/test-core_func_integer_find_lsb.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=30 "Built target test-core_func_integer_find_lsb"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num= "Built target test-core_func_integer_find_lsb"
 .PHONY : external/glm/test/core/CMakeFiles/test-core_func_integer_find_lsb.dir/all
 
 # Include target in all.
@@ -2804,7 +2804,7 @@ all: external/glm/test/core/CMakeFiles/test-core_func_integer_find_lsb.dir/all
 
 # Build rule for subdir invocation for target.
 external/glm/test/core/CMakeFiles/test-core_func_integer_find_lsb.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 external/glm/test/core/CMakeFiles/test-core_func_integer_find_lsb.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 .PHONY : external/glm/test/core/CMakeFiles/test-core_func_integer_find_lsb.dir/rule
@@ -2831,7 +2831,7 @@ clean: external/glm/test/core/CMakeFiles/test-core_func_integer_find_lsb.dir/cle
 external/glm/test/core/CMakeFiles/test-core_func_matrix.dir/all:
 	$(MAKE) -f external/glm/test/core/CMakeFiles/test-core_func_matrix.dir/build.make external/glm/test/core/CMakeFiles/test-core_func_matrix.dir/depend
 	$(MAKE) -f external/glm/test/core/CMakeFiles/test-core_func_matrix.dir/build.make external/glm/test/core/CMakeFiles/test-core_func_matrix.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=31 "Built target test-core_func_matrix"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num= "Built target test-core_func_matrix"
 .PHONY : external/glm/test/core/CMakeFiles/test-core_func_matrix.dir/all
 
 # Include target in all.
@@ -2841,7 +2841,7 @@ all: external/glm/test/core/CMakeFiles/test-core_func_matrix.dir/all
 
 # Build rule for subdir invocation for target.
 external/glm/test/core/CMakeFiles/test-core_func_matrix.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 external/glm/test/core/CMakeFiles/test-core_func_matrix.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 .PHONY : external/glm/test/core/CMakeFiles/test-core_func_matrix.dir/rule
@@ -2905,7 +2905,7 @@ clean: external/glm/test/core/CMakeFiles/test-core_force_ctor_init.dir/clean
 external/glm/test/core/CMakeFiles/test-core_type_mat4x4.dir/all:
 	$(MAKE) -f external/glm/test/core/CMakeFiles/test-core_type_mat4x4.dir/build.make external/glm/test/core/CMakeFiles/test-core_type_mat4x4.dir/depend
 	$(MAKE) -f external/glm/test/core/CMakeFiles/test-core_type_mat4x4.dir/build.make external/glm/test/core/CMakeFiles/test-core_type_mat4x4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num= "Built target test-core_type_mat4x4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=43 "Built target test-core_type_mat4x4"
 .PHONY : external/glm/test/core/CMakeFiles/test-core_type_mat4x4.dir/all
 
 # Include target in all.
@@ -2915,7 +2915,7 @@ all: external/glm/test/core/CMakeFiles/test-core_type_mat4x4.dir/all
 
 # Build rule for subdir invocation for target.
 external/glm/test/core/CMakeFiles/test-core_type_mat4x4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 external/glm/test/core/CMakeFiles/test-core_type_mat4x4.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 .PHONY : external/glm/test/core/CMakeFiles/test-core_type_mat4x4.dir/rule
@@ -2942,7 +2942,7 @@ clean: external/glm/test/core/CMakeFiles/test-core_type_mat4x4.dir/clean
 external/glm/test/core/CMakeFiles/test-core_func_integer_find_msb.dir/all:
 	$(MAKE) -f external/glm/test/core/CMakeFiles/test-core_func_integer_find_msb.dir/build.make external/glm/test/core/CMakeFiles/test-core_func_integer_find_msb.dir/depend
 	$(MAKE) -f external/glm/test/core/CMakeFiles/test-core_func_integer_find_msb.dir/build.make external/glm/test/core/CMakeFiles/test-core_func_integer_find_msb.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num= "Built target test-core_func_integer_find_msb"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=31 "Built target test-core_func_integer_find_msb"
 .PHONY : external/glm/test/core/CMakeFiles/test-core_func_integer_find_msb.dir/all
 
 # Include target in all.
@@ -2952,7 +2952,7 @@ all: external/glm/test/core/CMakeFiles/test-core_func_integer_find_msb.dir/all
 
 # Build rule for subdir invocation for target.
 external/glm/test/core/CMakeFiles/test-core_func_integer_find_msb.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 external/glm/test/core/CMakeFiles/test-core_func_integer_find_msb.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 .PHONY : external/glm/test/core/CMakeFiles/test-core_func_integer_find_msb.dir/rule
@@ -3557,7 +3557,7 @@ clean: external/glm/test/ext/CMakeFiles/test-ext_matrix_transform.dir/clean
 external/glm/test/ext/CMakeFiles/test-ext_vector_ulp.dir/all:
 	$(MAKE) -f external/glm/test/ext/CMakeFiles/test-ext_vector_ulp.dir/build.make external/glm/test/ext/CMakeFiles/test-ext_vector_ulp.dir/depend
 	$(MAKE) -f external/glm/test/ext/CMakeFiles/test-ext_vector_ulp.dir/build.make external/glm/test/ext/CMakeFiles/test-ext_vector_ulp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=55 "Built target test-ext_vector_ulp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num= "Built target test-ext_vector_ulp"
 .PHONY : external/glm/test/ext/CMakeFiles/test-ext_vector_ulp.dir/all
 
 # Include target in all.
@@ -3567,7 +3567,7 @@ all: external/glm/test/ext/CMakeFiles/test-ext_vector_ulp.dir/all
 
 # Build rule for subdir invocation for target.
 external/glm/test/ext/CMakeFiles/test-ext_vector_ulp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 external/glm/test/ext/CMakeFiles/test-ext_vector_ulp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 .PHONY : external/glm/test/ext/CMakeFiles/test-ext_vector_ulp.dir/rule
@@ -3705,7 +3705,7 @@ clean: external/glm/test/ext/CMakeFiles/test-ext_quaternion_exponential.dir/clea
 external/glm/test/ext/CMakeFiles/test-ext_vector_relational.dir/all:
 	$(MAKE) -f external/glm/test/ext/CMakeFiles/test-ext_vector_relational.dir/build.make external/glm/test/ext/CMakeFiles/test-ext_vector_relational.dir/depend
 	$(MAKE) -f external/glm/test/ext/CMakeFiles/test-ext_vector_relational.dir/build.make external/glm/test/ext/CMakeFiles/test-ext_vector_relational.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num= "Built target test-ext_vector_relational"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=55 "Built target test-ext_vector_relational"
 .PHONY : external/glm/test/ext/CMakeFiles/test-ext_vector_relational.dir/all
 
 # Include target in all.
@@ -3715,7 +3715,7 @@ all: external/glm/test/ext/CMakeFiles/test-ext_vector_relational.dir/all
 
 # Build rule for subdir invocation for target.
 external/glm/test/ext/CMakeFiles/test-ext_vector_relational.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 external/glm/test/ext/CMakeFiles/test-ext_vector_relational.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 .PHONY : external/glm/test/ext/CMakeFiles/test-ext_vector_relational.dir/rule
@@ -3927,7 +3927,7 @@ clean: external/glm/test/ext/CMakeFiles/test-ext_scalar_relational.dir/clean
 external/glm/test/ext/CMakeFiles/test-ext_vector_integer.dir/all:
 	$(MAKE) -f external/glm/test/ext/CMakeFiles/test-ext_vector_integer.dir/build.make external/glm/test/ext/CMakeFiles/test-ext_vector_integer.dir/depend
 	$(MAKE) -f external/glm/test/ext/CMakeFiles/test-ext_vector_integer.dir/build.make external/glm/test/ext/CMakeFiles/test-ext_vector_integer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=54 "Built target test-ext_vector_integer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num= "Built target test-ext_vector_integer"
 .PHONY : external/glm/test/ext/CMakeFiles/test-ext_vector_integer.dir/all
 
 # Include target in all.
@@ -3937,7 +3937,7 @@ all: external/glm/test/ext/CMakeFiles/test-ext_vector_integer.dir/all
 
 # Build rule for subdir invocation for target.
 external/glm/test/ext/CMakeFiles/test-ext_vector_integer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 external/glm/test/ext/CMakeFiles/test-ext_vector_integer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 .PHONY : external/glm/test/ext/CMakeFiles/test-ext_vector_integer.dir/rule
@@ -4038,7 +4038,7 @@ clean: external/glm/test/ext/CMakeFiles/test-ext_quaternion_geometric.dir/clean
 external/glm/test/ext/CMakeFiles/test-ext_vector_iec559.dir/all:
 	$(MAKE) -f external/glm/test/ext/CMakeFiles/test-ext_vector_iec559.dir/build.make external/glm/test/ext/CMakeFiles/test-ext_vector_iec559.dir/depend
 	$(MAKE) -f external/glm/test/ext/CMakeFiles/test-ext_vector_iec559.dir/build.make external/glm/test/ext/CMakeFiles/test-ext_vector_iec559.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num= "Built target test-ext_vector_iec559"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=54 "Built target test-ext_vector_iec559"
 .PHONY : external/glm/test/ext/CMakeFiles/test-ext_vector_iec559.dir/all
 
 # Include target in all.
@@ -4048,7 +4048,7 @@ all: external/glm/test/ext/CMakeFiles/test-ext_vector_iec559.dir/all
 
 # Build rule for subdir invocation for target.
 external/glm/test/ext/CMakeFiles/test-ext_vector_iec559.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 external/glm/test/ext/CMakeFiles/test-ext_vector_iec559.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 .PHONY : external/glm/test/ext/CMakeFiles/test-ext_vector_iec559.dir/rule
@@ -4279,7 +4279,7 @@ clean: external/glm/test/gtc/CMakeFiles/test-gtc_matrix_inverse.dir/clean
 external/glm/test/gtc/CMakeFiles/test-gtc_bitfield.dir/all:
 	$(MAKE) -f external/glm/test/gtc/CMakeFiles/test-gtc_bitfield.dir/build.make external/glm/test/gtc/CMakeFiles/test-gtc_bitfield.dir/depend
 	$(MAKE) -f external/glm/test/gtc/CMakeFiles/test-gtc_bitfield.dir/build.make external/glm/test/gtc/CMakeFiles/test-gtc_bitfield.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num= "Built target test-gtc_bitfield"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=56 "Built target test-gtc_bitfield"
 .PHONY : external/glm/test/gtc/CMakeFiles/test-gtc_bitfield.dir/all
 
 # Include target in all.
@@ -4289,7 +4289,7 @@ all: external/glm/test/gtc/CMakeFiles/test-gtc_bitfield.dir/all
 
 # Build rule for subdir invocation for target.
 external/glm/test/gtc/CMakeFiles/test-gtc_bitfield.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 external/glm/test/gtc/CMakeFiles/test-gtc_bitfield.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 .PHONY : external/glm/test/gtc/CMakeFiles/test-gtc_bitfield.dir/rule
@@ -4353,7 +4353,7 @@ clean: external/glm/test/gtc/CMakeFiles/test-gtc_matrix_integer.dir/clean
 external/glm/test/gtc/CMakeFiles/test-gtc_color_space.dir/all:
 	$(MAKE) -f external/glm/test/gtc/CMakeFiles/test-gtc_color_space.dir/build.make external/glm/test/gtc/CMakeFiles/test-gtc_color_space.dir/depend
 	$(MAKE) -f external/glm/test/gtc/CMakeFiles/test-gtc_color_space.dir/build.make external/glm/test/gtc/CMakeFiles/test-gtc_color_space.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=56 "Built target test-gtc_color_space"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num= "Built target test-gtc_color_space"
 .PHONY : external/glm/test/gtc/CMakeFiles/test-gtc_color_space.dir/all
 
 # Include target in all.
@@ -4363,7 +4363,7 @@ all: external/glm/test/gtc/CMakeFiles/test-gtc_color_space.dir/all
 
 # Build rule for subdir invocation for target.
 external/glm/test/gtc/CMakeFiles/test-gtc_color_space.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 external/glm/test/gtc/CMakeFiles/test-gtc_color_space.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 .PHONY : external/glm/test/gtc/CMakeFiles/test-gtc_color_space.dir/rule
@@ -5373,7 +5373,7 @@ clean: external/glm/test/gtx/CMakeFiles/test-gtx_integer.dir/clean
 external/glm/test/gtx/CMakeFiles/test-gtx_color_space.dir/all:
 	$(MAKE) -f external/glm/test/gtx/CMakeFiles/test-gtx_color_space.dir/build.make external/glm/test/gtx/CMakeFiles/test-gtx_color_space.dir/depend
 	$(MAKE) -f external/glm/test/gtx/CMakeFiles/test-gtx_color_space.dir/build.make external/glm/test/gtx/CMakeFiles/test-gtx_color_space.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=67 "Built target test-gtx_color_space"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num= "Built target test-gtx_color_space"
 .PHONY : external/glm/test/gtx/CMakeFiles/test-gtx_color_space.dir/all
 
 # Include target in all.
@@ -5383,7 +5383,7 @@ all: external/glm/test/gtx/CMakeFiles/test-gtx_color_space.dir/all
 
 # Build rule for subdir invocation for target.
 external/glm/test/gtx/CMakeFiles/test-gtx_color_space.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 external/glm/test/gtx/CMakeFiles/test-gtx_color_space.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 .PHONY : external/glm/test/gtx/CMakeFiles/test-gtx_color_space.dir/rule
@@ -5595,7 +5595,7 @@ clean: external/glm/test/gtx/CMakeFiles/test-gtx_string_cast.dir/clean
 external/glm/test/gtx/CMakeFiles/test-gtx_color_encoding.dir/all:
 	$(MAKE) -f external/glm/test/gtx/CMakeFiles/test-gtx_color_encoding.dir/build.make external/glm/test/gtx/CMakeFiles/test-gtx_color_encoding.dir/depend
 	$(MAKE) -f external/glm/test/gtx/CMakeFiles/test-gtx_color_encoding.dir/build.make external/glm/test/gtx/CMakeFiles/test-gtx_color_encoding.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num= "Built target test-gtx_color_encoding"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=67 "Built target test-gtx_color_encoding"
 .PHONY : external/glm/test/gtx/CMakeFiles/test-gtx_color_encoding.dir/all
 
 # Include target in all.
@@ -5605,7 +5605,7 @@ all: external/glm/test/gtx/CMakeFiles/test-gtx_color_encoding.dir/all
 
 # Build rule for subdir invocation for target.
 external/glm/test/gtx/CMakeFiles/test-gtx_color_encoding.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 external/glm/test/gtx/CMakeFiles/test-gtx_color_encoding.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 .PHONY : external/glm/test/gtx/CMakeFiles/test-gtx_color_encoding.dir/rule
@@ -5891,7 +5891,7 @@ clean: external/glm/test/gtx/CMakeFiles/test-gtx_euler_angle.dir/clean
 external/glm/test/gtx/CMakeFiles/test-gtx_color_space_YCoCg.dir/all:
 	$(MAKE) -f external/glm/test/gtx/CMakeFiles/test-gtx_color_space_YCoCg.dir/build.make external/glm/test/gtx/CMakeFiles/test-gtx_color_space_YCoCg.dir/depend
 	$(MAKE) -f external/glm/test/gtx/CMakeFiles/test-gtx_color_space_YCoCg.dir/build.make external/glm/test/gtx/CMakeFiles/test-gtx_color_space_YCoCg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num= "Built target test-gtx_color_space_YCoCg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=68 "Built target test-gtx_color_space_YCoCg"
 .PHONY : external/glm/test/gtx/CMakeFiles/test-gtx_color_space_YCoCg.dir/all
 
 # Include target in all.
@@ -5901,7 +5901,7 @@ all: external/glm/test/gtx/CMakeFiles/test-gtx_color_space_YCoCg.dir/all
 
 # Build rule for subdir invocation for target.
 external/glm/test/gtx/CMakeFiles/test-gtx_color_space_YCoCg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 external/glm/test/gtx/CMakeFiles/test-gtx_color_space_YCoCg.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 .PHONY : external/glm/test/gtx/CMakeFiles/test-gtx_color_space_YCoCg.dir/rule
@@ -6409,7 +6409,7 @@ clean: external/glm/test/gtx/CMakeFiles/test-gtx.dir/clean
 external/glm/test/gtx/CMakeFiles/test-gtx_matrix_query.dir/all:
 	$(MAKE) -f external/glm/test/gtx/CMakeFiles/test-gtx_matrix_query.dir/build.make external/glm/test/gtx/CMakeFiles/test-gtx_matrix_query.dir/depend
 	$(MAKE) -f external/glm/test/gtx/CMakeFiles/test-gtx_matrix_query.dir/build.make external/glm/test/gtx/CMakeFiles/test-gtx_matrix_query.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num= "Built target test-gtx_matrix_query"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=81 "Built target test-gtx_matrix_query"
 .PHONY : external/glm/test/gtx/CMakeFiles/test-gtx_matrix_query.dir/all
 
 # Include target in all.
@@ -6419,7 +6419,7 @@ all: external/glm/test/gtx/CMakeFiles/test-gtx_matrix_query.dir/all
 
 # Build rule for subdir invocation for target.
 external/glm/test/gtx/CMakeFiles/test-gtx_matrix_query.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 external/glm/test/gtx/CMakeFiles/test-gtx_matrix_query.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 .PHONY : external/glm/test/gtx/CMakeFiles/test-gtx_matrix_query.dir/rule
@@ -6520,7 +6520,7 @@ clean: external/glm/test/gtx/CMakeFiles/test-gtx_norm.dir/clean
 external/glm/test/gtx/CMakeFiles/test-gtx_common.dir/all:
 	$(MAKE) -f external/glm/test/gtx/CMakeFiles/test-gtx_common.dir/build.make external/glm/test/gtx/CMakeFiles/test-gtx_common.dir/depend
 	$(MAKE) -f external/glm/test/gtx/CMakeFiles/test-gtx_common.dir/build.make external/glm/test/gtx/CMakeFiles/test-gtx_common.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=68 "Built target test-gtx_common"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num= "Built target test-gtx_common"
 .PHONY : external/glm/test/gtx/CMakeFiles/test-gtx_common.dir/all
 
 # Include target in all.
@@ -6530,7 +6530,7 @@ all: external/glm/test/gtx/CMakeFiles/test-gtx_common.dir/all
 
 # Build rule for subdir invocation for target.
 external/glm/test/gtx/CMakeFiles/test-gtx_common.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 external/glm/test/gtx/CMakeFiles/test-gtx_common.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 .PHONY : external/glm/test/gtx/CMakeFiles/test-gtx_common.dir/rule
@@ -6964,7 +6964,7 @@ clean: external/glm/test/gtx/CMakeFiles/test-gtx_matrix_cross_product.dir/clean
 external/glm/test/gtx/CMakeFiles/test-gtx_matrix_transform_2d.dir/all:
 	$(MAKE) -f external/glm/test/gtx/CMakeFiles/test-gtx_matrix_transform_2d.dir/build.make external/glm/test/gtx/CMakeFiles/test-gtx_matrix_transform_2d.dir/depend
 	$(MAKE) -f external/glm/test/gtx/CMakeFiles/test-gtx_matrix_transform_2d.dir/build.make external/glm/test/gtx/CMakeFiles/test-gtx_matrix_transform_2d.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=81 "Built target test-gtx_matrix_transform_2d"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num= "Built target test-gtx_matrix_transform_2d"
 .PHONY : external/glm/test/gtx/CMakeFiles/test-gtx_matrix_transform_2d.dir/all
 
 # Include target in all.
@@ -6974,7 +6974,7 @@ all: external/glm/test/gtx/CMakeFiles/test-gtx_matrix_transform_2d.dir/all
 
 # Build rule for subdir invocation for target.
 external/glm/test/gtx/CMakeFiles/test-gtx_matrix_transform_2d.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 external/glm/test/gtx/CMakeFiles/test-gtx_matrix_transform_2d.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles 0
 .PHONY : external/glm/test/gtx/CMakeFiles/test-gtx_matrix_transform_2d.dir/rule

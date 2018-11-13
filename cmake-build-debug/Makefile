@@ -2549,6 +2549,33 @@ external/glad/src/glad.c.s:
 	$(MAKE) -f CMakeFiles/opengl_from_scratch.dir/build.make CMakeFiles/opengl_from_scratch.dir/external/glad/src/glad.c.s
 .PHONY : external/glad/src/glad.c.s
 
+src/Renderer.o: src/Renderer.cpp.o
+
+.PHONY : src/Renderer.o
+
+# target to build an object file
+src/Renderer.cpp.o:
+	$(MAKE) -f CMakeFiles/opengl_from_scratch.dir/build.make CMakeFiles/opengl_from_scratch.dir/src/Renderer.cpp.o
+.PHONY : src/Renderer.cpp.o
+
+src/Renderer.i: src/Renderer.cpp.i
+
+.PHONY : src/Renderer.i
+
+# target to preprocess a source file
+src/Renderer.cpp.i:
+	$(MAKE) -f CMakeFiles/opengl_from_scratch.dir/build.make CMakeFiles/opengl_from_scratch.dir/src/Renderer.cpp.i
+.PHONY : src/Renderer.cpp.i
+
+src/Renderer.s: src/Renderer.cpp.s
+
+.PHONY : src/Renderer.s
+
+# target to generate assembly for a file
+src/Renderer.cpp.s:
+	$(MAKE) -f CMakeFiles/opengl_from_scratch.dir/build.make CMakeFiles/opengl_from_scratch.dir/src/Renderer.cpp.s
+.PHONY : src/Renderer.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -2773,6 +2800,9 @@ help:
 	@echo "... external/glad/src/glad.o"
 	@echo "... external/glad/src/glad.i"
 	@echo "... external/glad/src/glad.s"
+	@echo "... src/Renderer.o"
+	@echo "... src/Renderer.i"
+	@echo "... src/Renderer.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
