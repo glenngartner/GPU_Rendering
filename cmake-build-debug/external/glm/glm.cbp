@@ -24,6 +24,7 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -51,6 +52,7 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -78,6 +80,7 @@
 				<Option type="3"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -105,6 +108,7 @@
 				<Option type="3"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -132,6 +136,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -158,6 +163,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -184,6 +190,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -210,6 +217,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -236,6 +244,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -262,6 +271,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -288,6 +298,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -314,6 +325,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -340,6 +352,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -366,6 +379,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -392,6 +406,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -418,6 +433,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -444,6 +460,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -470,6 +487,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -496,6 +514,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -522,6 +541,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -548,6 +568,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -574,6 +595,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -600,6 +622,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -626,6 +649,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -652,6 +676,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -678,6 +703,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -704,6 +730,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -730,6 +757,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -756,6 +784,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -782,6 +811,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -808,6 +838,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -834,6 +865,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -860,6 +892,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -886,6 +919,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -912,6 +946,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -938,6 +973,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -964,6 +1000,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -990,6 +1027,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1016,6 +1054,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1042,6 +1081,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1068,6 +1108,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1094,6 +1135,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1120,6 +1162,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1146,6 +1189,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1172,6 +1216,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1198,6 +1243,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1224,6 +1270,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1250,6 +1297,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1276,6 +1324,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1302,6 +1351,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1328,6 +1378,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1354,6 +1405,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1380,6 +1432,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1406,6 +1459,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1432,6 +1486,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1458,6 +1513,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1484,6 +1540,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1510,6 +1567,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1536,6 +1594,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1562,6 +1621,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1588,6 +1648,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1614,6 +1675,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1640,6 +1702,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1666,6 +1729,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1692,6 +1756,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1718,6 +1783,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1744,6 +1810,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1770,6 +1837,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1796,6 +1864,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1822,6 +1891,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1848,6 +1918,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1874,6 +1945,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1900,6 +1972,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1926,6 +1999,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1952,6 +2026,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -1978,6 +2053,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2004,6 +2080,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2030,6 +2107,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2056,6 +2134,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2082,6 +2161,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2108,6 +2188,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2134,6 +2215,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2160,6 +2242,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2186,6 +2269,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2212,6 +2296,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2238,6 +2323,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2264,6 +2350,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2290,6 +2377,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2316,6 +2404,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2342,6 +2431,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2368,6 +2458,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2394,6 +2485,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2420,6 +2512,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2446,6 +2539,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2472,6 +2566,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2498,6 +2593,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2524,6 +2620,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2550,6 +2647,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2576,6 +2674,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2602,6 +2701,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2628,6 +2728,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2654,6 +2755,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2680,6 +2782,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2706,6 +2809,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2732,6 +2836,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2758,6 +2863,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2784,6 +2890,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2810,6 +2917,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2836,6 +2944,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2862,6 +2971,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2888,6 +2998,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2914,6 +3025,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2940,6 +3052,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2966,6 +3079,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -2992,6 +3106,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3018,6 +3133,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3044,6 +3160,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3070,6 +3187,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3096,6 +3214,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3122,6 +3241,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3148,6 +3268,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3174,6 +3295,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3200,6 +3322,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3226,6 +3349,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3252,6 +3376,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3278,6 +3403,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3304,6 +3430,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3330,6 +3457,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3356,6 +3484,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3382,6 +3511,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3408,6 +3538,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3434,6 +3565,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3460,6 +3592,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3486,6 +3619,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3512,6 +3646,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3538,6 +3673,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3564,6 +3700,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3590,6 +3727,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3616,6 +3754,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3642,6 +3781,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3668,6 +3808,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3694,6 +3835,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3720,6 +3862,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3746,6 +3889,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3772,6 +3916,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3798,6 +3943,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3824,6 +3970,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3850,6 +3997,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3876,6 +4024,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3902,6 +4051,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3928,6 +4078,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3954,6 +4105,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -3980,6 +4132,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4006,6 +4159,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4032,6 +4186,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4058,6 +4213,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4084,6 +4240,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4110,6 +4267,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4136,6 +4294,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4162,6 +4321,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4188,6 +4348,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4214,6 +4375,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4240,6 +4402,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4266,6 +4429,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4292,6 +4456,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4318,6 +4483,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4344,6 +4510,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4370,6 +4537,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4396,6 +4564,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4422,6 +4591,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4448,6 +4618,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4474,6 +4645,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4500,6 +4672,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4526,6 +4699,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4552,6 +4726,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4578,6 +4753,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4604,6 +4780,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4630,6 +4807,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4656,6 +4834,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4682,6 +4861,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4708,6 +4888,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4734,6 +4915,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4760,6 +4942,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4786,6 +4969,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4812,6 +4996,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4838,6 +5023,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4864,6 +5050,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4890,6 +5077,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4916,6 +5104,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4942,6 +5131,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4968,6 +5158,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -4994,6 +5185,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5020,6 +5212,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5046,6 +5239,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5072,6 +5266,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5098,6 +5293,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5124,6 +5320,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5150,6 +5347,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5176,6 +5374,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5202,6 +5401,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5228,6 +5428,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5254,6 +5455,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5280,6 +5482,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5306,6 +5509,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5332,6 +5536,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5358,6 +5563,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5384,6 +5590,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5410,6 +5617,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5436,6 +5644,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5462,6 +5671,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5488,6 +5698,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5514,6 +5725,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5540,6 +5752,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5566,6 +5779,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5592,6 +5806,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5618,6 +5833,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5644,6 +5860,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5670,6 +5887,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5696,6 +5914,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5722,6 +5941,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5748,6 +5968,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5774,6 +5995,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5800,6 +6022,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5826,6 +6049,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5852,6 +6076,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5878,6 +6103,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5904,6 +6130,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5930,6 +6157,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5956,6 +6184,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -5982,6 +6211,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6008,6 +6238,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6034,6 +6265,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6060,6 +6292,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6086,6 +6319,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6112,6 +6346,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6138,6 +6373,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6164,6 +6400,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6190,6 +6427,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6216,6 +6454,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6242,6 +6481,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6268,6 +6508,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6294,6 +6535,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6320,6 +6562,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6346,6 +6589,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6372,6 +6616,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6398,6 +6643,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6424,6 +6670,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6450,6 +6697,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6476,6 +6724,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6502,6 +6751,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6528,6 +6778,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6554,6 +6805,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6580,6 +6832,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6606,6 +6859,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6632,6 +6886,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6658,6 +6913,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6684,6 +6940,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6710,6 +6967,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6736,6 +6994,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6762,6 +7021,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6788,6 +7048,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6814,6 +7075,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6840,6 +7102,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6866,6 +7129,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6892,6 +7156,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6918,6 +7183,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6944,6 +7210,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6970,6 +7237,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -6996,6 +7264,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7022,6 +7291,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7048,6 +7318,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7074,6 +7345,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7100,6 +7372,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7126,6 +7399,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7152,6 +7426,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7178,6 +7453,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7204,6 +7480,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7230,6 +7507,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7256,6 +7534,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7282,6 +7561,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7308,6 +7588,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7334,6 +7615,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7360,6 +7642,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7386,6 +7669,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7412,6 +7696,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7438,6 +7723,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7464,6 +7750,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7490,6 +7777,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7516,6 +7804,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7542,6 +7831,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7568,6 +7858,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7594,6 +7885,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7620,6 +7912,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7646,6 +7939,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7672,6 +7966,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7698,6 +7993,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7724,6 +8020,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7750,6 +8047,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7776,6 +8074,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7802,6 +8101,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7828,6 +8128,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7854,6 +8155,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7880,6 +8182,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7906,6 +8209,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7932,6 +8236,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7958,6 +8263,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -7984,6 +8290,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>
@@ -8010,6 +8317,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include"/>
 					<Add directory="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm"/>

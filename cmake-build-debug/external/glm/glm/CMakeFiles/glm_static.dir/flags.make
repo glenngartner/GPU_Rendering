@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -O2 -Wno-long-long -std=c++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm/glm/.. 
+CXX_INCLUDES = -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm/glm/.. 
 

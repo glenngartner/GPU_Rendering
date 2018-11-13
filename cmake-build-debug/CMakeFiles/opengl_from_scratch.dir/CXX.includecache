@@ -60,7 +60,7 @@ GL/glext.h
 GL/glu.h
 -
 
-/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/main.cpp
+/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/src/main.cpp
 glad/glad.h
 -
 GLFW/glfw3.h

@@ -7,11 +7,11 @@ C_FLAGS = -g
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/glfw-3.2.1/include -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm 
+C_INCLUDES = -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/glfw-3.2.1/include -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm 
 
 CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/glfw-3.2.1/include -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm 
+CXX_INCLUDES = -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/glfw-3.2.1/include -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm 
 

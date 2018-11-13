@@ -70,29 +70,29 @@ CMakeFiles/opengl_from_scratch.dir/external/glad/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/opengl_from_scratch.dir/external/glad/src/glad.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/src/glad.c -o CMakeFiles/opengl_from_scratch.dir/external/glad/src/glad.c.s
 
-CMakeFiles/opengl_from_scratch.dir/main.cpp.o: CMakeFiles/opengl_from_scratch.dir/flags.make
-CMakeFiles/opengl_from_scratch.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/opengl_from_scratch.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opengl_from_scratch.dir/main.cpp.o -c /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/main.cpp
+CMakeFiles/opengl_from_scratch.dir/src/main.cpp.o: CMakeFiles/opengl_from_scratch.dir/flags.make
+CMakeFiles/opengl_from_scratch.dir/src/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/opengl_from_scratch.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opengl_from_scratch.dir/src/main.cpp.o -c /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/src/main.cpp
 
-CMakeFiles/opengl_from_scratch.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opengl_from_scratch.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/main.cpp > CMakeFiles/opengl_from_scratch.dir/main.cpp.i
+CMakeFiles/opengl_from_scratch.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opengl_from_scratch.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/src/main.cpp > CMakeFiles/opengl_from_scratch.dir/src/main.cpp.i
 
-CMakeFiles/opengl_from_scratch.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opengl_from_scratch.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/main.cpp -o CMakeFiles/opengl_from_scratch.dir/main.cpp.s
+CMakeFiles/opengl_from_scratch.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opengl_from_scratch.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/src/main.cpp -o CMakeFiles/opengl_from_scratch.dir/src/main.cpp.s
 
 # Object files for target opengl_from_scratch
 opengl_from_scratch_OBJECTS = \
 "CMakeFiles/opengl_from_scratch.dir/external/glad/src/glad.c.o" \
-"CMakeFiles/opengl_from_scratch.dir/main.cpp.o"
+"CMakeFiles/opengl_from_scratch.dir/src/main.cpp.o"
 
 # External object files for target opengl_from_scratch
 opengl_from_scratch_EXTERNAL_OBJECTS =
 
 opengl_from_scratch: CMakeFiles/opengl_from_scratch.dir/external/glad/src/glad.c.o
-opengl_from_scratch: CMakeFiles/opengl_from_scratch.dir/main.cpp.o
+opengl_from_scratch: CMakeFiles/opengl_from_scratch.dir/src/main.cpp.o
 opengl_from_scratch: CMakeFiles/opengl_from_scratch.dir/build.make
 opengl_from_scratch: external/glfw/glfw-3.2.1/src/libglfw3.a
 opengl_from_scratch: /usr/lib/x86_64-linux-gnu/librt.so

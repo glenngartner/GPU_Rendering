@@ -4,8 +4,8 @@ project(opengl_from_scratch)
 set(CMAKE_CXX_STANDARD 14)
 
 # source file config
-include_directories(${PROJECT_SOURCE_DIR}/external/glfw/include ${PROJECT_SOURCE_DIR}/external/glad/include)
-set(SOURCE_FILES ${SOURCE_FILES} ${PROJECT_SOURCE_DIR}/external/glad/src/glad.c main.cpp)
+include_directories(${PROJECT_SOURCE_DIR}/include ${PROJECT_SOURCE_DIR}/external/glfw/include ${PROJECT_SOURCE_DIR}/external/glad/include)
+file (GLOB SOURCES ${PROJECT_SOURCE_DIR}/src/*.cpp ${PROJECT_SOURCE_DIR}/external/glad/src/glad.c)
 
 #############################
 #### EXTERNAL LIB CONFIG ####
@@ -21,6 +21,6 @@ add_subdirectory(${PROJECT_SOURCE_DIR}/external/glm)
 
 
 # build and link
-add_executable(${PROJECT_NAME} ${SOURCE_FILES})
+add_executable(${PROJECT_NAME} ${SOURCES})
 target_link_libraries(${PROJECT_NAME} glfw ${GLFW_LIBRARIES} glm ${GLM_LIBRARIES})
 

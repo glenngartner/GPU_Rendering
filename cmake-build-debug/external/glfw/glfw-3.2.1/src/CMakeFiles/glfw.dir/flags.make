@@ -6,5 +6,5 @@ C_FLAGS = -g -fPIC   -Wall
 
 C_DEFINES = -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/glfw-3.2.1/include -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/glfw-3.2.1/src -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/external/glfw/glfw-3.2.1/src 
+C_INCLUDES = -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/glfw-3.2.1/include -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/glfw-3.2.1/src -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/external/glfw/glfw-3.2.1/src 
 

@@ -5,8 +5,8 @@ CMakeFiles/opengl_from_scratch.dir/external/glad/src/glad.c.o
  ../external/glad/include/KHR/khrplatform.h
  ../external/glad/include/glad/glad.h
  /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/src/glad.c
-CMakeFiles/opengl_from_scratch.dir/main.cpp.o
+CMakeFiles/opengl_from_scratch.dir/src/main.cpp.o
  ../external/glad/include/KHR/khrplatform.h
  ../external/glad/include/glad/glad.h
  ../external/glfw/include/GLFW/glfw3.h
- /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/main.cpp
+ /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/src/main.cpp

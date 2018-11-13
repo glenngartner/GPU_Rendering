@@ -6,5 +6,5 @@ C_FLAGS = -g
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/glfw-3.2.1/deps -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/glfw-3.2.1/include 
+C_INCLUDES = -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/include -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/include -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/include -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/glfw-3.2.1/deps -I/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glfw/glfw-3.2.1/include 
 
