@@ -70,6 +70,8 @@ glad/glad.h
 iostream
 -
 Renderer.h
+-
+Renderer.h
 /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/src/Renderer.h
 
 /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/src/main.cpp

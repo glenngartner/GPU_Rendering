@@ -4,16 +4,27 @@
 
 #include <glad/glad.h>
 #include <iostream>
+#include <Renderer.h>
+
 #include "Renderer.h"
 
 void App::Renderer::Render(GLFWwindow *window) {
-    // render code here
-    glfwSwapBuffers(window);
 
+    // process inputs
+    ProcessInput(window);
+
+    // render code here
+    glClearColor(0.5f, 0.5f, 0.25f, 1.0f);
+    glClear(GL_COLOR_BUFFER_BIT);
+
+    // check for events
     glfwPollEvents();
+
+    // swap buffers
+    glfwSwapBuffers(window);
 }
 
-int App::Renderer::Start(){
+int App::Renderer::Start() {
 
     // init GFLW and configure it
     glfwInit();
@@ -43,11 +54,19 @@ int App::Renderer::Start(){
         Render(window);
     }
 
+    glfwTerminate();
     return 0;
 
 }
 
 void App::Renderer::WindowResizeCallback(GLFWwindow *window, int width, int height) {
-    std::cout << "Window resizing: width: " << width  <<" height: " << height << std::endl;
+    std::cout << "Window resizing: width: " << width << " height: " << height << std::endl;
     glViewport(0, 0, width, height);
+}
+
+void App::Renderer::ProcessInput(GLFWwindow *window) {
+    if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS) {
+        glfwSetWindowShouldClose(window, true);
+    }
+
 }

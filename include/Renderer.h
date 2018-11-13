@@ -20,6 +20,8 @@ namespace App {
 
     static void WindowResizeCallback(GLFWwindow *window, int width, int height);
 
+    static void ProcessInput(GLFWwindow *window);
+
 };
 }
 
