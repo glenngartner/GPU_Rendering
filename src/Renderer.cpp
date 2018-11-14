@@ -36,10 +36,12 @@ void App::Renderer::Render(GLFWwindow *window, std::vector<App::Mesh *> meshes) 
     glClearColor(0.5f, 0.5f, 0.25f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT);
 
+    for (int i = 0; i < meshes.size(); i++){
+        glUseProgram(meshes[i]->shaderProgram);
+        glBindVertexArray(meshes[i]->VAO);
+        glDrawElements(GL_TRIANGLES, meshes[i]->indices.size(), GL_UNSIGNED_INT, 0);
+    }
 
-    glUseProgram(meshes[0]->shaderProgram);
-    glBindVertexArray(meshes[0]->VAO);
-    glDrawArrays(GL_TRIANGLES, 0, 3);
 
     // check for events
     glfwPollEvents();
@@ -80,14 +82,28 @@ int App::Renderer::Start() {
 
     std::vector<Mesh *> meshes = {};
 
-    Mesh newMesh = Mesh();
-    meshes.push_back(&newMesh);
+    Mesh mesh1 = Mesh();
+    meshes.push_back(&mesh1);
 
-    newMesh.initVBO();
-    newMesh.createShader(vertexSource, GL_VERTEX_SHADER);
-    newMesh.createShader(fragmentSource, GL_FRAGMENT_SHADER);
-    newMesh.createShaderProgram(newMesh.vertexShader, newMesh.fragmentShader);
+    mesh1.initVBO();
+    mesh1.createShader(vertexSource, GL_VERTEX_SHADER);
+    mesh1.createShader(fragmentSource, GL_FRAGMENT_SHADER);
+    mesh1.createShaderProgram(mesh1.vertexShader, mesh1.fragmentShader);
 
+    std::vector<float> mesh2Verts = {
+            0.5f, 1.0f, -0.5f,
+            1.0f, 0.0f, -0.5f,
+            0.0f, 0.0f, -0.5f
+    };
+    std::vector<int> mesh2Indices = {0, 1, 2};
+    Mesh mesh2 = Mesh(mesh2Verts, mesh2Indices);
+    meshes.push_back(&mesh2);
+
+    fragmentSource = App::FileLoader::loadShader("../Shaders/justRed.frag.glsl");
+    mesh2.initVBO();
+    mesh2.createShader(vertexSource, GL_VERTEX_SHADER);
+    mesh2.createShader(fragmentSource, GL_FRAGMENT_SHADER);
+    mesh2.createShaderProgram(mesh2.vertexShader, mesh2.fragmentShader);
 
     while (!glfwWindowShouldClose(window)) {
         Render(window, meshes);

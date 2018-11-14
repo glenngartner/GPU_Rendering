@@ -4,28 +4,44 @@
 
 #include <glad/glad.h>
 #include <iostream>
-#include <Mesh.h>
-
 #include "Mesh.h"
 
-App::Mesh::Mesh() {
-    std::cout << "New mesh created" << std::endl;
-}
-
 /**
- * Initializes the VBO of the object
+ * If no verts used to init mesh, use the default triangle
  */
-
-void App::Mesh::initVBO() {
-    float verts[] = {
+App::Mesh::Mesh() {
+    this->verts = {
             -0.5f, -0.5f, 0.0f,
             0.5f, -0.5f, 0.0f,
             0.0f, 0.5f, 0.0f
     };
 
+    this->indices = {0, 1, 2};
+}
+
+/**
+ * If custom verts are used to init mesh
+ * @param verts
+ */
+App::Mesh::Mesh(std::vector<float> verts, std::vector<int> indices) {
+    this->verts = verts;
+    this->indices = indices;
+}
+
+/**
+ * Initializes the VBO, VAO, and vertex data of the object in GL terms
+ */
+
+void App::Mesh::initVBO() {
+
     // create memory on the GPU to store vertex data. This is the vertex buffer object
     unsigned int VBO;
     glGenBuffers(1, &VBO);
+
+    // create EBO object
+    unsigned int EBO;
+    glGenBuffers(1, &EBO);
+
 
     // generate a vertex array object to store the vertex buffer object
     unsigned int VAO;
@@ -37,19 +53,21 @@ void App::Mesh::initVBO() {
     // save instance of VAO to this object
     this->VAO = VAO;
 
-    // bind this buffer object to the array buffer type on the GPU
+    // bind the vertex buffer object (VBO) to the active buffer, and set its data
     glBindBuffer(GL_ARRAY_BUFFER, VBO);
+    glBufferData(GL_ARRAY_BUFFER, this->verts.size() * sizeof(float), &this->verts[0], GL_STATIC_DRAW);
 
-    // Configure the data in the currently bound array buffer object.
-    // This data persists with the object, bound or unbound
-    // Future uses of this VBO will have this data assigned to it
-    glBufferData(GL_ARRAY_BUFFER, sizeof(verts), verts, GL_STATIC_DRAW);
+    // bind EBO to the active buffer, and set its data
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
+    glBufferData(GL_ELEMENT_ARRAY_BUFFER, this->indices.size() * sizeof(float), &this->indices[0], GL_STATIC_DRAW);
 
     // tell openGL how to interpret the vertex data in memory
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
     glEnableVertexAttribArray(0);
 
-    // send the data to the graphics card
+    // set the element buffer as the current buffer state, since we're rendering with indices
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
+
 }
 /**
  * Creates a gl shader
@@ -132,3 +150,4 @@ unsigned int App::Mesh::createShaderProgram(unsigned int vertexShader, unsigned 
     return shaderProgram;
 
 }
+

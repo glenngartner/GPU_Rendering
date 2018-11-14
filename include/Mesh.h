@@ -14,12 +14,16 @@ namespace App {
     class Mesh {
     public:
         Mesh();
+        Mesh(std::vector<float> verts, std::vector<int> indices);
 
-        std::vector<int> verts;
+        std::vector<float> verts;
+        std::vector<int> indices;
         unsigned int vertexShader;
         unsigned int fragmentShader;
         unsigned int shaderProgram;
         unsigned int VAO;
+        unsigned int color = 0xFFA43C;
+
 
         void initVBO();
 
