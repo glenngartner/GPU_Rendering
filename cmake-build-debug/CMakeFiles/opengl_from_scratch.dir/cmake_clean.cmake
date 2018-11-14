@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/opengl_from_scratch.dir/external/glad/src/glad.c.o"
+  "CMakeFiles/opengl_from_scratch.dir/src/FileLoader.cpp.o"
+  "CMakeFiles/opengl_from_scratch.dir/src/Mesh.cpp.o"
   "CMakeFiles/opengl_from_scratch.dir/src/Renderer.cpp.o"
   "CMakeFiles/opengl_from_scratch.dir/src/main.cpp.o"
   "opengl_from_scratch.pdb"

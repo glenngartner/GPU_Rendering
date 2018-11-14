@@ -70,9 +70,35 @@ CMakeFiles/opengl_from_scratch.dir/external/glad/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/opengl_from_scratch.dir/external/glad/src/glad.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/src/glad.c -o CMakeFiles/opengl_from_scratch.dir/external/glad/src/glad.c.s
 
+CMakeFiles/opengl_from_scratch.dir/src/FileLoader.cpp.o: CMakeFiles/opengl_from_scratch.dir/flags.make
+CMakeFiles/opengl_from_scratch.dir/src/FileLoader.cpp.o: ../src/FileLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/opengl_from_scratch.dir/src/FileLoader.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opengl_from_scratch.dir/src/FileLoader.cpp.o -c /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/src/FileLoader.cpp
+
+CMakeFiles/opengl_from_scratch.dir/src/FileLoader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opengl_from_scratch.dir/src/FileLoader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/src/FileLoader.cpp > CMakeFiles/opengl_from_scratch.dir/src/FileLoader.cpp.i
+
+CMakeFiles/opengl_from_scratch.dir/src/FileLoader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opengl_from_scratch.dir/src/FileLoader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/src/FileLoader.cpp -o CMakeFiles/opengl_from_scratch.dir/src/FileLoader.cpp.s
+
+CMakeFiles/opengl_from_scratch.dir/src/Mesh.cpp.o: CMakeFiles/opengl_from_scratch.dir/flags.make
+CMakeFiles/opengl_from_scratch.dir/src/Mesh.cpp.o: ../src/Mesh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/opengl_from_scratch.dir/src/Mesh.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opengl_from_scratch.dir/src/Mesh.cpp.o -c /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/src/Mesh.cpp
+
+CMakeFiles/opengl_from_scratch.dir/src/Mesh.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opengl_from_scratch.dir/src/Mesh.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/src/Mesh.cpp > CMakeFiles/opengl_from_scratch.dir/src/Mesh.cpp.i
+
+CMakeFiles/opengl_from_scratch.dir/src/Mesh.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opengl_from_scratch.dir/src/Mesh.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/src/Mesh.cpp -o CMakeFiles/opengl_from_scratch.dir/src/Mesh.cpp.s
+
 CMakeFiles/opengl_from_scratch.dir/src/Renderer.cpp.o: CMakeFiles/opengl_from_scratch.dir/flags.make
 CMakeFiles/opengl_from_scratch.dir/src/Renderer.cpp.o: ../src/Renderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/opengl_from_scratch.dir/src/Renderer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/opengl_from_scratch.dir/src/Renderer.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opengl_from_scratch.dir/src/Renderer.cpp.o -c /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/src/Renderer.cpp
 
 CMakeFiles/opengl_from_scratch.dir/src/Renderer.cpp.i: cmake_force
@@ -85,7 +111,7 @@ CMakeFiles/opengl_from_scratch.dir/src/Renderer.cpp.s: cmake_force
 
 CMakeFiles/opengl_from_scratch.dir/src/main.cpp.o: CMakeFiles/opengl_from_scratch.dir/flags.make
 CMakeFiles/opengl_from_scratch.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/opengl_from_scratch.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/opengl_from_scratch.dir/src/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opengl_from_scratch.dir/src/main.cpp.o -c /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/src/main.cpp
 
 CMakeFiles/opengl_from_scratch.dir/src/main.cpp.i: cmake_force
@@ -99,6 +125,8 @@ CMakeFiles/opengl_from_scratch.dir/src/main.cpp.s: cmake_force
 # Object files for target opengl_from_scratch
 opengl_from_scratch_OBJECTS = \
 "CMakeFiles/opengl_from_scratch.dir/external/glad/src/glad.c.o" \
+"CMakeFiles/opengl_from_scratch.dir/src/FileLoader.cpp.o" \
+"CMakeFiles/opengl_from_scratch.dir/src/Mesh.cpp.o" \
 "CMakeFiles/opengl_from_scratch.dir/src/Renderer.cpp.o" \
 "CMakeFiles/opengl_from_scratch.dir/src/main.cpp.o"
 
@@ -106,6 +134,8 @@ opengl_from_scratch_OBJECTS = \
 opengl_from_scratch_EXTERNAL_OBJECTS =
 
 opengl_from_scratch: CMakeFiles/opengl_from_scratch.dir/external/glad/src/glad.c.o
+opengl_from_scratch: CMakeFiles/opengl_from_scratch.dir/src/FileLoader.cpp.o
+opengl_from_scratch: CMakeFiles/opengl_from_scratch.dir/src/Mesh.cpp.o
 opengl_from_scratch: CMakeFiles/opengl_from_scratch.dir/src/Renderer.cpp.o
 opengl_from_scratch: CMakeFiles/opengl_from_scratch.dir/src/main.cpp.o
 opengl_from_scratch: CMakeFiles/opengl_from_scratch.dir/build.make
@@ -118,7 +148,7 @@ opengl_from_scratch: /usr/lib/x86_64-linux-gnu/libXinerama.so
 opengl_from_scratch: /usr/lib/x86_64-linux-gnu/libXxf86vm.so
 opengl_from_scratch: /usr/lib/x86_64-linux-gnu/libXcursor.so
 opengl_from_scratch: CMakeFiles/opengl_from_scratch.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable opengl_from_scratch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable opengl_from_scratch"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opengl_from_scratch.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

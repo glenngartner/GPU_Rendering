@@ -2549,6 +2549,60 @@ external/glad/src/glad.c.s:
 	$(MAKE) -f CMakeFiles/opengl_from_scratch.dir/build.make CMakeFiles/opengl_from_scratch.dir/external/glad/src/glad.c.s
 .PHONY : external/glad/src/glad.c.s
 
+src/FileLoader.o: src/FileLoader.cpp.o
+
+.PHONY : src/FileLoader.o
+
+# target to build an object file
+src/FileLoader.cpp.o:
+	$(MAKE) -f CMakeFiles/opengl_from_scratch.dir/build.make CMakeFiles/opengl_from_scratch.dir/src/FileLoader.cpp.o
+.PHONY : src/FileLoader.cpp.o
+
+src/FileLoader.i: src/FileLoader.cpp.i
+
+.PHONY : src/FileLoader.i
+
+# target to preprocess a source file
+src/FileLoader.cpp.i:
+	$(MAKE) -f CMakeFiles/opengl_from_scratch.dir/build.make CMakeFiles/opengl_from_scratch.dir/src/FileLoader.cpp.i
+.PHONY : src/FileLoader.cpp.i
+
+src/FileLoader.s: src/FileLoader.cpp.s
+
+.PHONY : src/FileLoader.s
+
+# target to generate assembly for a file
+src/FileLoader.cpp.s:
+	$(MAKE) -f CMakeFiles/opengl_from_scratch.dir/build.make CMakeFiles/opengl_from_scratch.dir/src/FileLoader.cpp.s
+.PHONY : src/FileLoader.cpp.s
+
+src/Mesh.o: src/Mesh.cpp.o
+
+.PHONY : src/Mesh.o
+
+# target to build an object file
+src/Mesh.cpp.o:
+	$(MAKE) -f CMakeFiles/opengl_from_scratch.dir/build.make CMakeFiles/opengl_from_scratch.dir/src/Mesh.cpp.o
+.PHONY : src/Mesh.cpp.o
+
+src/Mesh.i: src/Mesh.cpp.i
+
+.PHONY : src/Mesh.i
+
+# target to preprocess a source file
+src/Mesh.cpp.i:
+	$(MAKE) -f CMakeFiles/opengl_from_scratch.dir/build.make CMakeFiles/opengl_from_scratch.dir/src/Mesh.cpp.i
+.PHONY : src/Mesh.cpp.i
+
+src/Mesh.s: src/Mesh.cpp.s
+
+.PHONY : src/Mesh.s
+
+# target to generate assembly for a file
+src/Mesh.cpp.s:
+	$(MAKE) -f CMakeFiles/opengl_from_scratch.dir/build.make CMakeFiles/opengl_from_scratch.dir/src/Mesh.cpp.s
+.PHONY : src/Mesh.cpp.s
+
 src/Renderer.o: src/Renderer.cpp.o
 
 .PHONY : src/Renderer.o
@@ -2800,6 +2854,12 @@ help:
 	@echo "... external/glad/src/glad.o"
 	@echo "... external/glad/src/glad.i"
 	@echo "... external/glad/src/glad.s"
+	@echo "... src/FileLoader.o"
+	@echo "... src/FileLoader.i"
+	@echo "... src/FileLoader.s"
+	@echo "... src/Mesh.o"
+	@echo "... src/Mesh.i"
+	@echo "... src/Mesh.s"
 	@echo "... src/Renderer.o"
 	@echo "... src/Renderer.i"
 	@echo "... src/Renderer.s"

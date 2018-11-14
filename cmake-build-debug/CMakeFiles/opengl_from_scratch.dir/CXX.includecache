@@ -60,9 +60,25 @@ GL/glext.h
 GL/glu.h
 -
 
+../include/FileLoader.h
+string
+-
+
+../include/Mesh.h
+glad/glad.h
+-
+vector
+-
+string
+-
+
 ../include/Renderer.h
 GLFW/glfw3.h
 -
+vector
+-
+Mesh.h
+../include/Mesh.h
 
 /home/g/workspace/openGL/tuts/projects/opengl-from-scratch/src/Renderer.cpp
 glad/glad.h
@@ -70,17 +86,11 @@ glad/glad.h
 iostream
 -
 Renderer.h
+/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/src/Renderer.h
+FileLoader.h
 -
 Renderer.h
-/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/src/Renderer.h
-
-/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/src/main.cpp
-glad/glad.h
 -
-GLFW/glfw3.h
--
-iostream
--
-Renderer.h
-/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/src/Renderer.h
+Mesh.h
+/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/src/Mesh.h
 

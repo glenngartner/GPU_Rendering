@@ -12128,6 +12128,12 @@
 			<Option target="glm_static"/>
 			<Option target="glm_shared"/>
 		</Unit>
+		<Unit filename="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/src/FileLoader.cpp">
+			<Option target="opengl_from_scratch"/>
+		</Unit>
+		<Unit filename="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/src/Mesh.cpp">
+			<Option target="opengl_from_scratch"/>
+		</Unit>
 		<Unit filename="/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/src/Renderer.cpp">
 			<Option target="opengl_from_scratch"/>
 		</Unit>

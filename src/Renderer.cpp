@@ -4,9 +4,12 @@
 
 #include <glad/glad.h>
 #include <iostream>
+#include "Renderer.h"
+#include <FileLoader.h>
 #include <Renderer.h>
 
-#include "Renderer.h"
+#include "Mesh.h"
+
 
 void App::Renderer::Render(GLFWwindow *window) {
 
@@ -16,6 +19,27 @@ void App::Renderer::Render(GLFWwindow *window) {
     // render code here
     glClearColor(0.5f, 0.5f, 0.25f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT);
+
+    // check for events
+    glfwPollEvents();
+
+    // swap buffers
+    glfwSwapBuffers(window);
+}
+
+void App::Renderer::Render(GLFWwindow *window, std::vector<App::Mesh *> meshes) {
+
+    // process inputs
+    ProcessInput(window);
+
+    // render code here
+    glClearColor(0.5f, 0.5f, 0.25f, 1.0f);
+    glClear(GL_COLOR_BUFFER_BIT);
+
+
+    glUseProgram(meshes[0]->shaderProgram);
+    glBindVertexArray(meshes[0]->VAO);
+    glDrawArrays(GL_TRIANGLES, 0, 3);
 
     // check for events
     glfwPollEvents();
@@ -50,8 +74,23 @@ int App::Renderer::Start() {
 
     glViewport(0, 0, WINDOW_WIDTH, WINDOW_HEIGHT);
 
+    // load shader files
+    std::string vertexSource = App::FileLoader::loadShader("../Shaders/basic.vert.glsl");
+    std::string fragmentSource = App::FileLoader::loadShader("../Shaders/basic.frag.glsl");
+
+    std::vector<Mesh *> meshes = {};
+
+    Mesh newMesh = Mesh();
+    meshes.push_back(&newMesh);
+
+    newMesh.initVBO();
+    newMesh.createShader(vertexSource, GL_VERTEX_SHADER);
+    newMesh.createShader(fragmentSource, GL_FRAGMENT_SHADER);
+    newMesh.createShaderProgram(newMesh.vertexShader, newMesh.fragmentShader);
+
+
     while (!glfwWindowShouldClose(window)) {
-        Render(window);
+        Render(window, meshes);
     }
 
     glfwTerminate();
@@ -70,3 +109,4 @@ void App::Renderer::ProcessInput(GLFWwindow *window) {
     }
 
 }
+
