@@ -124,5 +124,13 @@ void App::Renderer::ProcessInput(GLFWwindow *window) {
         glfwSetWindowShouldClose(window, true);
     }
 
+    if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS){
+        glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+    }
+
+    if (glfwGetKey(window, GLFW_KEY_F) == GLFW_PRESS){
+        glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
+    }
+
 }
 
