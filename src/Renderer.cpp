@@ -38,6 +38,7 @@ void App::Renderer::Render(GLFWwindow *window, std::vector<App::Mesh *> meshes) 
 
     for (int i = 0; i < meshes.size(); i++){
         glUseProgram(meshes[i]->shaderProgram);
+        meshes[i]->useMeshColor();
         glBindVertexArray(meshes[i]->VAO);
         glDrawElements(GL_TRIANGLES, meshes[i]->indices.size(), GL_UNSIGNED_INT, 0);
     }
@@ -78,7 +79,7 @@ int App::Renderer::Start() {
 
     // load shader files
     std::string vertexSource = App::FileLoader::loadShader("../Shaders/basic.vert.glsl");
-    std::string fragmentSource = App::FileLoader::loadShader("../Shaders/basic.frag.glsl");
+    std::string fragmentSource = App::FileLoader::loadShader("../Shaders/uniformColor.frag.glsl");
 
     std::vector<Mesh *> meshes = {};
 
@@ -86,6 +87,7 @@ int App::Renderer::Start() {
     meshes.push_back(&mesh1);
 
     mesh1.initVBO();
+    mesh1.color = {57/255, 190/255, 255/255};
     mesh1.createShader(vertexSource, GL_VERTEX_SHADER);
     mesh1.createShader(fragmentSource, GL_FRAGMENT_SHADER);
     mesh1.createShaderProgram(mesh1.vertexShader, mesh1.fragmentShader);
@@ -99,7 +101,7 @@ int App::Renderer::Start() {
     Mesh mesh2 = Mesh(mesh2Verts, mesh2Indices);
     meshes.push_back(&mesh2);
 
-    fragmentSource = App::FileLoader::loadShader("../Shaders/justRed.frag.glsl");
+    fragmentSource = App::FileLoader::loadShader("../Shaders/uniformColor.frag.glsl");
     mesh2.initVBO();
     mesh2.createShader(vertexSource, GL_VERTEX_SHADER);
     mesh2.createShader(fragmentSource, GL_FRAGMENT_SHADER);

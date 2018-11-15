@@ -3,7 +3,11 @@
 //
 
 #include <glad/glad.h>
+#include <GLFW/glfw3.h>
+#include <cmath>
 #include <iostream>
+#include <Mesh.h>
+
 #include "Mesh.h"
 
 /**
@@ -149,5 +153,17 @@ unsigned int App::Mesh::createShaderProgram(unsigned int vertexShader, unsigned 
 
     return shaderProgram;
 
+}
+
+void App::Mesh::useMeshColor() {
+    int meshColorUniform = glGetUniformLocation(this->shaderProgram, "meshColor");
+    glUniform4f(meshColorUniform, this->color[0], this->color[1], this->color[2], 1.0f);
+}
+
+void App::Mesh::colorChangeOverTime(float speed) {
+    int meshColorUniform = glGetUniformLocation(this->shaderProgram, "meshColor");
+    float timeValue = glfwGetTime();
+    float changingColor = (sin(timeValue) / speed) + 0.5f;
+    glUniform4f(meshColorUniform, this->color[0], changingColor, changingColor, 1.0f);
 }
 

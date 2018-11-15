@@ -192,10 +192,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbcf58e1-e0b3-4d1d-97ec-4c0b453e9183" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Shaders/justRed.frag.glsl" afterDir="false" />
+    <list default="true" id="fbcf58e1-e0b3-4d1d-97ec-4c0b453e9183" name="Default Changelist" comment="set keys W &amp; F to wireframe and fill rendering, respectively">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shaders/uniformColor.frag.glsl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/opengl_from_scratch.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/opengl_from_scratch.dir/C.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/opengl_from_scratch" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/opengl_from_scratch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/Mesh.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Mesh.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Mesh.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mesh.cpp" afterDir="false" />
@@ -223,25 +223,28 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="c" value="24" />
-          <entry key="cpp" value="15727" />
-          <entry key="glsl" value="417" />
-          <entry key="h" value="2645" />
+          <entry key="cpp" value="17606" />
+          <entry key="glsl" value="524" />
+          <entry key="h" value="2919" />
+          <entry key="md" value="88" />
           <entry key="mm" value="35" />
-          <entry key="txt" value="2089" />
+          <entry key="txt" value="2190" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="1871" />
-          <entry key="GLSL shader file" value="417" />
-          <entry key="ObjectiveC" value="18431" />
-          <entry key="PLAIN_TEXT" value="218" />
+          <entry key="GLSL shader file" value="524" />
+          <entry key="Markdown" value="88" />
+          <entry key="ObjectiveC" value="20584" />
+          <entry key="PLAIN_TEXT" value="319" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Disassembly" value="1" />
-          <entry key="GLSL shader file" value="5" />
+          <entry key="GLSL shader file" value="6" />
+          <entry key="Markdown" value="1" />
           <entry key="ObjectiveC" value="12" />
         </counts>
       </usages-collector>
@@ -250,8 +253,9 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="cpp" value="5" />
-          <entry key="glsl" value="5" />
+          <entry key="glsl" value="6" />
           <entry key="h" value="7" />
+          <entry key="md" value="1" />
           <entry key="opengl_from_scratch (disassembly)" value="1" />
         </counts>
       </usages-collector>
@@ -274,8 +278,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Renderer.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="98" column="18" selection-start-line="98" selection-start-column="18" selection-end-line="98" selection-end-column="18" />
+            <state relative-caret-position="450">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="e#36#58#0" expanded="true" />
               </folding>
@@ -284,10 +288,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="72">
+                <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Mesh.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="393">
+              <caret line="166" column="46" selection-start-line="166" selection-start-column="46" selection-end-line="166" selection-end-column="46" />
               <folding>
                 <element signature="e#36#58#0" expanded="true" />
               </folding>
@@ -298,8 +314,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/Mesh.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            <state relative-caret-position="486">
+              <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
               <folding>
                 <element signature="e#36#58#0" expanded="true" />
               </folding>
@@ -336,9 +352,11 @@
         <option value="$PROJECT_DIR$/include/FileLoader.h" />
         <option value="$PROJECT_DIR$/include/Renderer.h" />
         <option value="$PROJECT_DIR$/Shaders/justRed.frag.glsl" />
+        <option value="$PROJECT_DIR$/Shaders/uniformColor.frag.glsl" />
         <option value="$PROJECT_DIR$/include/Mesh.h" />
-        <option value="$PROJECT_DIR$/src/Renderer.cpp" />
         <option value="$PROJECT_DIR$/src/Mesh.cpp" />
+        <option value="$PROJECT_DIR$/src/Renderer.cpp" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -1531,7 +1549,7 @@
       <updated>1542120378531</updated>
       <workItem from="1542120379751" duration="7042000" />
       <workItem from="1542128550734" duration="8774000" />
-      <workItem from="1542140297063" duration="20559000" />
+      <workItem from="1542140297063" duration="24283000" />
     </task>
     <task id="LOCAL-00001" summary="update cmakelists with helpful comments">
       <created>1542127117647</created>
@@ -1568,11 +1586,25 @@
       <option name="project" value="LOCAL" />
       <updated>1542226626729</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="use indices to render triangles">
+      <created>1542235372993</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1542235372993</updated>
+    </task>
+    <task id="LOCAL-00007" summary="set keys W &amp; F to wireframe and fill rendering, respectively">
+      <created>1542235551185</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1542235551185</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36375000" />
+    <option name="totallyTimeSpent" value="40099000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1048" extended-state="6" />
@@ -1587,7 +1619,7 @@
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -1599,7 +1631,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
-      <window_info anchor="right" id="Terminal" order="6" visible="true" weight="0.29295623" />
+      <window_info active="true" anchor="right" id="Terminal" order="6" visible="true" weight="0.29295623" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1646,14 +1678,16 @@
     <MESSAGE value="rename renderer class. create namespace" />
     <MESSAGE value="clear color buffer" />
     <MESSAGE value="renderer and mesh updates. drawing triangle" />
-    <option name="LAST_COMMIT_MESSAGE" value="renderer and mesh updates. drawing triangle" />
+    <MESSAGE value="use indices to render triangles" />
+    <MESSAGE value="set keys W &amp; F to wireframe and fill rendering, respectively" />
+    <option name="LAST_COMMIT_MESSAGE" value="set keys W &amp; F to wireframe and fill rendering, respectively" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src/Mesh.cpp</url>
-          <line>80</line>
+          <line>83</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -1744,20 +1778,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/Mesh.h">
+    <entry file="file://$PROJECT_DIR$/Shaders/uniformColor.frag.glsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-          <folding>
-            <element signature="e#36#58#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Renderer.cpp">
+    <entry file="file://$PROJECT_DIR$/include/Mesh.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
-          <caret line="98" column="18" selection-start-line="98" selection-start-column="18" selection-end-line="98" selection-end-column="18" />
+          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
           <folding>
             <element signature="e#36#58#0" expanded="true" />
           </folding>
@@ -1766,11 +1797,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Mesh.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="393">
+          <caret line="166" column="46" selection-start-line="166" selection-start-column="46" selection-end-line="166" selection-end-column="46" />
           <folding>
             <element signature="e#36#58#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Renderer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="e#36#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="72">
+            <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

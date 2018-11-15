@@ -22,14 +22,16 @@ namespace App {
         unsigned int fragmentShader;
         unsigned int shaderProgram;
         unsigned int VAO;
-        unsigned int color = 0xFFA43C;
-
+        std::vector<float> color = {1.0f, 0.75f, 0.25f};
 
         void initVBO();
 
         unsigned int createShader(std::string scriptFilePath, GLuint shaderType);
 
         unsigned int createShaderProgram(unsigned int vertexShader, unsigned int fragmentShader);
+
+        void useMeshColor();
+        void colorChangeOverTime(float speed);
     };
 
 }
