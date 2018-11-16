@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test-core_func_integer_find_lsb.dir/core_func_integer_find_lsb.cpp.o"
+  "CMakeFiles/test-core_func_integer_find_lsb.dir/core_func_integer_find_lsb.cpp.obj"
   "test-core_func_integer_find_lsb.pdb"
-  "test-core_func_integer_find_lsb"
+  "test-core_func_integer_find_lsb.exe"
+  "test-core_func_integer_find_lsb.exe.manifest"
+  "libtest-core_func_integer_find_lsb.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -6,3 +6,33 @@
 
 #IncludeRegexTransform: 
 
+../external/glad/include/KHR/khrplatform.h
+stdint.h
+-
+inttypes.h
+-
+stdint.h
+-
+
+../external/glad/include/glad/glad.h
+windows.h
+-
+KHR/khrplatform.h
+-
+
+C:/workspace/cpp/openGL/GPU_Rendering/external/glad/src/glad.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+glad/glad.h
+-
+windows.h
+-
+winapifamily.h
+-
+dlfcn.h
+-
+
