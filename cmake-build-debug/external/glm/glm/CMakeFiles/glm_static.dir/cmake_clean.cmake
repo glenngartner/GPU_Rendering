@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/glm_static.dir/detail/glm.cpp.o"
+  "CMakeFiles/glm_static.dir/detail/glm.cpp.obj"
   "libglm_static.pdb"
   "libglm_static.a"
 )

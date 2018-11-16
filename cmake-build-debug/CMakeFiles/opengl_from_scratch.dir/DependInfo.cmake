@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glad/src/glad.c" "/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles/opengl_from_scratch.dir/external/glad/src/glad.c.o"
+  "C:/workspace/cpp/openGL/GPU_Rendering/external/glad/src/glad.c" "C:/workspace/cpp/openGL/GPU_Rendering/cmake-build-debug/CMakeFiles/opengl_from_scratch.dir/external/glad/src/glad.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -18,10 +18,10 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../external/glm"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/src/FileLoader.cpp" "/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles/opengl_from_scratch.dir/src/FileLoader.cpp.o"
-  "/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/src/Mesh.cpp" "/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles/opengl_from_scratch.dir/src/Mesh.cpp.o"
-  "/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/src/Renderer.cpp" "/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles/opengl_from_scratch.dir/src/Renderer.cpp.o"
-  "/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/src/main.cpp" "/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/CMakeFiles/opengl_from_scratch.dir/src/main.cpp.o"
+  "C:/workspace/cpp/openGL/GPU_Rendering/src/FileLoader.cpp" "C:/workspace/cpp/openGL/GPU_Rendering/cmake-build-debug/CMakeFiles/opengl_from_scratch.dir/src/FileLoader.cpp.obj"
+  "C:/workspace/cpp/openGL/GPU_Rendering/src/Mesh.cpp" "C:/workspace/cpp/openGL/GPU_Rendering/cmake-build-debug/CMakeFiles/opengl_from_scratch.dir/src/Mesh.cpp.obj"
+  "C:/workspace/cpp/openGL/GPU_Rendering/src/Renderer.cpp" "C:/workspace/cpp/openGL/GPU_Rendering/cmake-build-debug/CMakeFiles/opengl_from_scratch.dir/src/Renderer.cpp.obj"
+  "C:/workspace/cpp/openGL/GPU_Rendering/src/main.cpp" "C:/workspace/cpp/openGL/GPU_Rendering/cmake-build-debug/CMakeFiles/opengl_from_scratch.dir/src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -36,7 +36,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/external/glfw/glfw-3.2.1/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "C:/workspace/cpp/openGL/GPU_Rendering/cmake-build-debug/external/glfw/glfw-3.2.1/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/glm_shared.dir/detail/glm.cpp.o"
+  "CMakeFiles/glm_shared.dir/detail/glm.cpp.obj"
   "libglm_shared.pdb"
-  "libglm_shared.so"
+  "libglm_shared.dll"
+  "libglm_shared.dll.a"
+  "libglm_shared.dll.manifest"
 )
 
 # Per-language clean rules from dependency scanning.

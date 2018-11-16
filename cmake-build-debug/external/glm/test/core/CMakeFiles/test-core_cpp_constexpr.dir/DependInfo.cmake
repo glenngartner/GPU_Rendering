@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/external/glm/test/core/core_cpp_constexpr.cpp" "/home/g/workspace/openGL/tuts/projects/opengl-from-scratch/cmake-build-debug/external/glm/test/core/CMakeFiles/test-core_cpp_constexpr.dir/core_cpp_constexpr.cpp.o"
+  "C:/workspace/cpp/openGL/GPU_Rendering/external/glm/test/core/core_cpp_constexpr.cpp" "C:/workspace/cpp/openGL/GPU_Rendering/cmake-build-debug/external/glm/test/core/CMakeFiles/test-core_cpp_constexpr.dir/core_cpp_constexpr.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
