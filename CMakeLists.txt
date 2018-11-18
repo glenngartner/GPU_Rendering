@@ -1,6 +1,6 @@
 # CMAKE config
 cmake_minimum_required(VERSION 3.12)
-project(opengl_from_scratch)
+project(GPU_Rendering)
 set(CMAKE_CXX_STANDARD 14)
 
 # source file config
