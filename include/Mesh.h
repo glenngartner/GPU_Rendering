@@ -24,7 +24,9 @@ namespace App {
         unsigned int VAO;
         std::vector<float> color = {1.0f, 0.75f, 0.25f};
 
-        void initVBO();
+        bool useVertexColors = false;
+
+        void initMeshData();
 
         unsigned int createShader(std::string scriptFilePath, GLuint shaderType);
 

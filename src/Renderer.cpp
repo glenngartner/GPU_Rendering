@@ -38,7 +38,9 @@ void App::Renderer::Render(GLFWwindow *window, std::vector<App::Mesh *> meshes) 
 
     for (int i = 0; i < meshes.size(); i++){
         glUseProgram(meshes[i]->shaderProgram);
-        meshes[i]->useMeshColor();
+        if (!meshes[i]->useVertexColors){
+            meshes[i]->useMeshColor();
+        }
         glBindVertexArray(meshes[i]->VAO);
         glDrawElements(GL_TRIANGLES, meshes[i]->indices.size(), GL_UNSIGNED_INT, 0);
     }
@@ -86,7 +88,7 @@ int App::Renderer::Start() {
     Mesh mesh1 = Mesh();
     meshes.push_back(&mesh1);
 
-    mesh1.initVBO();
+    mesh1.initMeshData();
     mesh1.color = {57/255, 190/255, 255/255};
     mesh1.createShader(vertexSource, GL_VERTEX_SHADER);
     mesh1.createShader(fragmentSource, GL_FRAGMENT_SHADER);
@@ -102,10 +104,32 @@ int App::Renderer::Start() {
     meshes.push_back(&mesh2);
 
     fragmentSource = App::FileLoader::loadShader("../Shaders/uniformColor.frag.glsl");
-    mesh2.initVBO();
+    mesh2.initMeshData();
     mesh2.createShader(vertexSource, GL_VERTEX_SHADER);
     mesh2.createShader(fragmentSource, GL_FRAGMENT_SHADER);
     mesh2.createShaderProgram(mesh2.vertexShader, mesh2.fragmentShader);
+
+    // mesh 3 uses vertex colors
+    std::vector<float> mesh3Verts = {
+            // vert location    //vert color
+            -1.0f, 0.0f, 1.0f,  1.0f, 0.0f, 0.0f,
+            -0.5f, 1.0f, 1.0f,  0.0f, 1.0f, 0.0f,
+            0.0f, 0.0f, 1.0f,   0.0f, 0.0f, 1.0f
+    };
+
+    vertexSource = App::FileLoader::loadShader("../Shaders/vertexColor.vert.glsl");
+    fragmentSource = App::FileLoader::loadShader("../Shaders/vertexColor.frag.glsl");
+    std::vector<int> mesh3Indices = {0, 1, 2};
+
+    Mesh mesh3 = Mesh(mesh3Verts, mesh3Indices);
+    meshes.push_back(&mesh3);
+
+    mesh3.useVertexColors = true;
+    mesh3.initMeshData();
+    mesh3.createShader(vertexSource, GL_VERTEX_SHADER);
+    mesh3.createShader(fragmentSource, GL_FRAGMENT_SHADER);
+    mesh3.createShaderProgram(mesh3.vertexShader, mesh3.fragmentShader);
+
 
     while (!glfwWindowShouldClose(window)) {
         Render(window, meshes);

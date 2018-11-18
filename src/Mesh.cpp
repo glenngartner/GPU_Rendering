@@ -36,7 +36,7 @@ App::Mesh::Mesh(std::vector<float> verts, std::vector<int> indices) {
  * Initializes the VBO, VAO, and vertex data of the object in GL terms
  */
 
-void App::Mesh::initVBO() {
+void App::Mesh::initMeshData() {
 
     // create memory on the GPU to store vertex data. This is the vertex buffer object
     unsigned int VBO;
@@ -65,9 +65,18 @@ void App::Mesh::initVBO() {
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
     glBufferData(GL_ELEMENT_ARRAY_BUFFER, this->indices.size() * sizeof(float), &this->indices[0], GL_STATIC_DRAW);
 
-    // tell openGL how to interpret the vertex data in memory
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
-    glEnableVertexAttribArray(0);
+    // tell openGL how to interpret the vertex data in the VBO
+
+    if (!this->useVertexColors){
+        glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
+        glEnableVertexAttribArray(0);
+    } else {
+        glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)0);
+        glEnableVertexAttribArray(0);
+
+        glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)(3*sizeof(float)));
+        glEnableVertexAttribArray(1);
+    }
 
     // set the element buffer as the current buffer state, since we're rendering with indices
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
