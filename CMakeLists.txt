@@ -21,6 +21,6 @@ add_subdirectory(${PROJECT_SOURCE_DIR}/external/glm)
 
 
 # build and link
-add_executable(${PROJECT_NAME} ${SOURCES})
+add_executable(${PROJECT_NAME} ${SOURCES} src/Shader.cpp include/Shader.h src/GameObject.cpp include/GameObject.h)
 target_link_libraries(${PROJECT_NAME} glfw ${GLFW_LIBRARIES} glm ${GLM_LIBRARIES})
 

@@ -18,22 +18,13 @@ namespace App {
 
         std::vector<float> verts;
         std::vector<int> indices;
-        unsigned int vertexShader;
-        unsigned int fragmentShader;
-        unsigned int shaderProgram;
+        unsigned int VBO;
+        unsigned int EBO;
         unsigned int VAO;
-        std::vector<float> color = {1.0f, 0.75f, 0.25f};
 
         bool useVertexColors = false;
 
-        void initMeshData();
-
-        unsigned int createShader(std::string scriptFilePath, GLuint shaderType);
-
-        unsigned int createShaderProgram(unsigned int vertexShader, unsigned int fragmentShader);
-
-        void useMeshColor();
-        void colorChangeOverTime(float speed);
+        void initVertexData();
     };
 
 }

@@ -7,7 +7,7 @@
 #include "Renderer.h"
 #include <FileLoader.h>
 #include <Renderer.h>
-
+#include "GameObject.h"
 #include "Mesh.h"
 
 
@@ -27,7 +27,7 @@ void App::Renderer::Render(GLFWwindow *window) {
     glfwSwapBuffers(window);
 }
 
-void App::Renderer::Render(GLFWwindow *window, std::vector<App::Mesh *> meshes) {
+void App::Renderer::Render(GLFWwindow *window, std::vector<App::GameObject *> gameObjects) {
 
     // process inputs
     ProcessInput(window);
@@ -36,13 +36,13 @@ void App::Renderer::Render(GLFWwindow *window, std::vector<App::Mesh *> meshes) 
     glClearColor(0.5f, 0.5f, 0.25f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT);
 
-    for (int i = 0; i < meshes.size(); i++){
-        glUseProgram(meshes[i]->shaderProgram);
-        if (!meshes[i]->useVertexColors){
-            meshes[i]->useMeshColor();
+    for (int i = 0; i < gameObjects.size(); i++){
+        glUseProgram(gameObjects[i]->shader->shaderProgram);
+        if (!gameObjects[i]->mesh->useVertexColors){
+            gameObjects[i]->shader->useMeshColor();
         }
-        glBindVertexArray(meshes[i]->VAO);
-        glDrawElements(GL_TRIANGLES, meshes[i]->indices.size(), GL_UNSIGNED_INT, 0);
+        glBindVertexArray(gameObjects[i]->mesh->VAO);
+        glDrawElements(GL_TRIANGLES, gameObjects[i]->mesh->indices.size(), GL_UNSIGNED_INT, 0);
     }
 
 
@@ -79,21 +79,15 @@ int App::Renderer::Start() {
 
     glViewport(0, 0, WINDOW_WIDTH, WINDOW_HEIGHT);
 
-    // load shader files
-    std::string vertexSource = App::FileLoader::loadShader("../Shaders/basic.vert.glsl");
-    std::string fragmentSource = App::FileLoader::loadShader("../Shaders/uniformColor.frag.glsl");
-
-    std::vector<Mesh *> meshes = {};
+    std::vector<GameObject *> gameObjects = {};
 
     Mesh mesh1 = Mesh();
-    meshes.push_back(&mesh1);
+    ShaderParameters mesh1ShaderParams = {};
+    Shader mesh1Shader = Shader(&mesh1, &mesh1ShaderParams);
+    GameObject gameObject1 = GameObject(&mesh1, &mesh1Shader);
+    gameObjects.push_back(&gameObject1);
 
-    mesh1.initMeshData();
-    mesh1.color = {57/255, 190/255, 255/255};
-    mesh1.createShader(vertexSource, GL_VERTEX_SHADER);
-    mesh1.createShader(fragmentSource, GL_FRAGMENT_SHADER);
-    mesh1.createShaderProgram(mesh1.vertexShader, mesh1.fragmentShader);
-
+    // make gameobject 2
     std::vector<float> mesh2Verts = {
             0.5f, 1.0f, -0.5f,
             1.0f, 0.0f, -0.5f,
@@ -101,13 +95,10 @@ int App::Renderer::Start() {
     };
     std::vector<int> mesh2Indices = {0, 1, 2};
     Mesh mesh2 = Mesh(mesh2Verts, mesh2Indices);
-    meshes.push_back(&mesh2);
-
-    fragmentSource = App::FileLoader::loadShader("../Shaders/uniformColor.frag.glsl");
-    mesh2.initMeshData();
-    mesh2.createShader(vertexSource, GL_VERTEX_SHADER);
-    mesh2.createShader(fragmentSource, GL_FRAGMENT_SHADER);
-    mesh2.createShaderProgram(mesh2.vertexShader, mesh2.fragmentShader);
+    ShaderParameters mesh2ShaderParams = {};
+    Shader mesh2Shader = Shader(&mesh2, &mesh2ShaderParams);
+    GameObject gameObject2 = GameObject(&mesh2, &mesh2Shader);
+    gameObjects.push_back(&gameObject2);
 
     // mesh 3 uses vertex colors
     std::vector<float> mesh3Verts = {
@@ -117,22 +108,20 @@ int App::Renderer::Start() {
             0.0f, 0.0f, 1.0f,   0.0f, 0.0f, 1.0f
     };
 
-    vertexSource = App::FileLoader::loadShader("../Shaders/vertexColor.vert.glsl");
-    fragmentSource = App::FileLoader::loadShader("../Shaders/vertexColor.frag.glsl");
     std::vector<int> mesh3Indices = {0, 1, 2};
 
     Mesh mesh3 = Mesh(mesh3Verts, mesh3Indices);
-    meshes.push_back(&mesh3);
-
-    mesh3.useVertexColors = true;
-    mesh3.initMeshData();
-    mesh3.createShader(vertexSource, GL_VERTEX_SHADER);
-    mesh3.createShader(fragmentSource, GL_FRAGMENT_SHADER);
-    mesh3.createShaderProgram(mesh3.vertexShader, mesh3.fragmentShader);
+    ShaderParameters mesh3ShaderParams = {};
+    mesh3ShaderParams.vertexSourceFileLocation = "../Shaders/vertexColor.vert.glsl";
+    mesh3ShaderParams.fragmentSourceFileLocation = "../Shaders/vertexColor.frag.glsl";
+    mesh3ShaderParams.useVertexColors = true;
+    Shader mesh3Shader = Shader(&mesh3, &mesh3ShaderParams);
+    GameObject gameObject3 = GameObject(&mesh3, &mesh3Shader);
+    gameObjects.push_back(&gameObject3);
 
 
     while (!glfwWindowShouldClose(window)) {
-        Render(window, meshes);
+        Render(window, gameObjects);
     }
 
     glfwTerminate();
