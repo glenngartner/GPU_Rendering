@@ -16,15 +16,14 @@ namespace App {
         Mesh();
         Mesh(std::vector<float> verts, std::vector<int> indices);
 
-        std::vector<float> verts;
         std::vector<int> indices;
+        unsigned int VAO;
+        bool useVertexColors = false;
+        void initVertexData();
+    private:
+        std::vector<float> verts;
         unsigned int VBO;
         unsigned int EBO;
-        unsigned int VAO;
-
-        bool useVertexColors = false;
-
-        void initVertexData();
     };
 
 }

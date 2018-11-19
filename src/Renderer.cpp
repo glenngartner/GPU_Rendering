@@ -82,8 +82,7 @@ int App::Renderer::Start() {
     std::vector<GameObject *> gameObjects = {};
 
     Mesh mesh1 = Mesh();
-    ShaderParameters mesh1ShaderParams = {};
-    Shader mesh1Shader = Shader(&mesh1, &mesh1ShaderParams);
+    Shader mesh1Shader = Shader(&mesh1);
     GameObject gameObject1 = GameObject(&mesh1, &mesh1Shader);
     gameObjects.push_back(&gameObject1);
 
@@ -95,8 +94,7 @@ int App::Renderer::Start() {
     };
     std::vector<int> mesh2Indices = {0, 1, 2};
     Mesh mesh2 = Mesh(mesh2Verts, mesh2Indices);
-    ShaderParameters mesh2ShaderParams = {};
-    Shader mesh2Shader = Shader(&mesh2, &mesh2ShaderParams);
+    Shader mesh2Shader = Shader(&mesh2);
     GameObject gameObject2 = GameObject(&mesh2, &mesh2Shader);
     gameObjects.push_back(&gameObject2);
 
@@ -126,7 +124,6 @@ int App::Renderer::Start() {
 
     glfwTerminate();
     return 0;
-
 }
 
 void App::Renderer::WindowResizeCallback(GLFWwindow *window, int width, int height) {

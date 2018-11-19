@@ -11,46 +11,48 @@
 
 App::Shader::Shader(App::Mesh *mesh, App::ShaderParameters *shaderParameters) {
     this->mesh = mesh;
-    this->mesh->useVertexColors = shaderParameters->useVertexColors;
+
+    if (shaderParameters != nullptr){this->mesh->useVertexColors = shaderParameters->useVertexColors;}
+
     this->mesh->initVertexData();
 
-    if (shaderParameters->vertexSourceFileLocation == NULL){
+    if (shaderParameters == nullptr || shaderParameters->vertexSourceFileLocation == NULL ){
         this->vertexSourceFileLocation =  "../Shaders/basic.vert.glsl";
     } else {
         this->vertexSourceFileLocation = shaderParameters->vertexSourceFileLocation;
     }
 
-    if (shaderParameters->fragmentSourceFileLocation == NULL){
+    if (shaderParameters == nullptr || shaderParameters->fragmentSourceFileLocation == NULL){
         this->fragmentSourceFileLocation = "../Shaders/uniformColor.frag.glsl";
     } else {
         this->fragmentSourceFileLocation = shaderParameters->fragmentSourceFileLocation;
     }
 
-    if (shaderParameters->vertexShaderSource == ""){
+    if (shaderParameters == nullptr || shaderParameters->vertexShaderSource == ""){
         this->vertexShaderSource = App::FileLoader::loadShader(this->vertexSourceFileLocation);
     } else {
         this->vertexShaderSource = shaderParameters->vertexShaderSource;
     }
 
-    if (shaderParameters->fragmentShaderSource == ""){
+    if (shaderParameters == nullptr || shaderParameters->fragmentShaderSource == ""){
         this->fragmentShaderSource = App::FileLoader::loadShader(this->fragmentSourceFileLocation);
     } else {
         this->fragmentShaderSource = shaderParameters->fragmentShaderSource;
     }
 
-    if (shaderParameters->vertexShader == 0){
+    if (shaderParameters == nullptr || shaderParameters->vertexShader == 0){
         this->vertexShader = this->createShader(this->vertexShaderSource, GL_VERTEX_SHADER);
     } else {
         this->vertexShader = this->createShader(shaderParameters->vertexShaderSource, GL_VERTEX_SHADER);
     }
 
-    if (shaderParameters->fragmentShader == 0){
+    if (shaderParameters == nullptr || shaderParameters->fragmentShader == 0){
         this->fragmentShader = this->createShader(this->fragmentShaderSource, GL_FRAGMENT_SHADER);
     } else {
         this->fragmentShader = this->createShader(shaderParameters->fragmentShaderSource, GL_FRAGMENT_SHADER);
     }
 
-    if (shaderParameters->shaderProgram == 0){
+    if (shaderParameters == nullptr || shaderParameters->shaderProgram == 0){
         this->shaderProgram = this->createShaderProgram(this->vertexShader, this->fragmentShader);
     }else {
         this->shaderProgram = shaderParameters->shaderProgram;
