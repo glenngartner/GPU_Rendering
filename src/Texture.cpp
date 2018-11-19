@@ -19,7 +19,8 @@ App::Texture::Texture(const char *imageLocation) {
 
 
 void App::Texture::loadImage(const char *imageLocation) {
-   this->imageData = stbi_load(imageLocation, &this->width, &this->height, &this->channels, STBI_rgb);
+    stbi_set_flip_vertically_on_load(true);
+    this->imageData = stbi_load(imageLocation, &this->width, &this->height, &this->channels, STBI_rgb);
 }
 
 void App::Texture::generateGLTexture() {
