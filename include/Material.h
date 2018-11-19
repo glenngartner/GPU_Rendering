@@ -10,6 +10,7 @@
 #include "Vectors.h"
 
 namespace App {
+
     struct MaterialParams {
         Vec3 albedoColor = {-1.0f, -1.0f, -1.0f};
         float roughnessValue = -1.0f;
@@ -31,7 +32,7 @@ namespace App {
         Texture metalnessTexture;
         Texture ambientOcclusionTexture;
         Shader shader;
-
+        std::vector<Texture *> activeTextures = {};
         void useAlbedoColor();
     };
 }

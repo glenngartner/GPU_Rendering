@@ -40,14 +40,33 @@ void App::Renderer::Render(GLFWwindow *window, std::vector<App::GameObject *> ga
 
     for (int i = 0; i < gameObjects.size(); i++){
         if (gameObjects[i]->mesh->useTextureCoordinates){
-//            //TODO: add condition to check for presence of each texture type (ie: albedo)
-            glActiveTexture(GL_TEXTURE0);
-            glBindTexture(GL_TEXTURE_2D, gameObjects[i]->material->albedoTexture.glTexture);
+            for (int j = 0; j < gameObjects[i]->material->activeTextures.size(); j++){
+                Texture *texture = gameObjects[i]->material->activeTextures[j];
+                switch (texture->textureType){
+                    case ALBEDO:
+                        glActiveTexture(GL_TEXTURE0);
+                        glBindTexture(GL_TEXTURE_2D, texture->glTexture);
+                        break;
+                    case AMBIENT_OCCLUSION:
+                        glActiveTexture(GL_TEXTURE1);
+                        glBindTexture(GL_TEXTURE_2D, texture->glTexture);
+                        break;
+                    default:
+                        break;
+                }
+            }
         }
 
         glUseProgram(gameObjects[i]->material->shader.shaderProgram);
 
-        if (!gameObjects[i]->mesh->useVertexColors){
+        // get shader uniform locations, as needed
+        if (gameObjects[i]->mesh->useTextureCoordinates){
+            glUniform1i(glGetUniformLocation(gameObjects[i]->material->shader.shaderProgram, "albedoTexture"), 0);
+            glUniform1i(glGetUniformLocation(gameObjects[i]->material->shader.shaderProgram, "aoTexture"), 1);
+        }
+        else if (gameObjects[i]->mesh->useVertexColors){
+            // vertex color instructions here, as needed
+        } else {
             gameObjects[i]->material->useAlbedoColor();
         }
 
@@ -115,12 +134,13 @@ int App::Renderer::Start() {
     Mesh mesh2 = Mesh(mesh2Verts, mesh2Indices);
     MaterialParams mesh2MaterialParams = {};
     ShaderParameters mesh2ShaderParams = {};
-    mesh2ShaderParams.vertexSourceFileLocation = "../Shaders/albedoTexture.vert.glsl";
-    mesh2ShaderParams.fragmentSourceFileLocation = "../Shaders/albedoTexture.frag.glsl";
+    mesh2ShaderParams.vertexSourceFileLocation = "../Shaders/albedoAndAO.vert.glsl";
+    mesh2ShaderParams.fragmentSourceFileLocation = "../Shaders/albedoAndAO.frag.glsl";
     mesh2ShaderParams.useTextureCoordinates = true;
     mesh2ShaderParams.useVertexColors = false;
     mesh2MaterialParams.shaderParameters = &mesh2ShaderParams;
     mesh2MaterialParams.albedoTexture = Texture("../assets/brick_all_render.png");
+    mesh2MaterialParams.ambientOcclusionTexture = Texture("../assets/Brick_AO.png");
     Material mesh2Material = Material(&mesh2, &mesh2MaterialParams);
     GameObject gameObject2 = GameObject(&mesh2, &mesh2Material);
     gameObjects.push_back(&gameObject2);
@@ -138,14 +158,10 @@ int App::Renderer::Start() {
     Mesh mesh3 = Mesh(mesh3Verts, mesh3Indices);
     MaterialParams mesh3MaterialParams = {};
     ShaderParameters mesh3ShaderParams = {};
-//    mesh3ShaderParams.vertexSourceFileLocation = "../Shaders/albedoTexAndVertexColor.vert.glsl";
-//    mesh3ShaderParams.fragmentSourceFileLocation = "../Shaders/albedoTexAndVertexColor.frag.glsl";
     mesh3ShaderParams.vertexSourceFileLocation = "../Shaders/vertexColor.vert.glsl";
     mesh3ShaderParams.fragmentSourceFileLocation = "../Shaders/vertexColor.frag.glsl";
     mesh3ShaderParams.useVertexColors = true;
-//    mesh3ShaderParams.useTextureCoordinates = true;
     mesh3MaterialParams.shaderParameters = &mesh3ShaderParams;
-//    mesh3MaterialParams.albedoTexture = Texture("../assets/brick_all_render.png");
     Material mesh3Material = Material(&mesh3, &mesh3MaterialParams);
     GameObject gameObject3 = GameObject(&mesh3, &mesh3Material);
     gameObjects.push_back(&gameObject3);

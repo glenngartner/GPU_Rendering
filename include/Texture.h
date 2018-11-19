@@ -9,6 +9,16 @@
 
 namespace App {
 
+    enum TextureTypes {
+        UNASSIGNED,
+        ALBEDO,
+        ROUGHNESS,
+        METALNESS,
+        NORMAL,
+        HEIGHT,
+        AMBIENT_OCCLUSION,
+    };
+
     class Texture {
     public:
         Texture();
@@ -17,6 +27,8 @@ namespace App {
         int width, height, channels;
         unsigned char *imageData;
         unsigned int glTexture;
+
+        TextureTypes textureType = UNASSIGNED;
 
     private:
         void loadImage(const char *imageLocation);
