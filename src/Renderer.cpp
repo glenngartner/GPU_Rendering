@@ -11,6 +11,10 @@
 #include "Mesh.h"
 #include "Material.h"
 #include "Texture.h"
+#include "Transforms.h"
+#include "glm/glm.hpp"
+#include "glm/gtc/matrix_transform.hpp"
+#include "glm/gtc/type_ptr.hpp"
 
 
 void App::Renderer::Render(GLFWwindow *window) {
@@ -30,6 +34,10 @@ void App::Renderer::Render(GLFWwindow *window) {
 }
 
 void App::Renderer::Render(GLFWwindow *window, std::vector<App::GameObject *> gameObjects) {
+
+    // set temp rotation matrix for passing to uniforms
+    glm::mat4 rotationMatrix(1.0f); // set identity matrix
+    rotationMatrix = glm::rotate(rotationMatrix, glm::radians((float)glfwGetTime() * 10.0f), glm::vec3(0.0f, 0.0f, 1.0f));
 
     // process inputs
     ProcessInput(window);
@@ -68,6 +76,8 @@ void App::Renderer::Render(GLFWwindow *window, std::vector<App::GameObject *> ga
             // vertex color instructions here, as needed
         } else {
             gameObjects[i]->material->useAlbedoColor();
+            unsigned int uniformLoc = glGetUniformLocation(gameObjects[i]->material->shader.shaderProgram, "rotationMatrix");
+            glUniformMatrix4fv(uniformLoc, 1, GL_FALSE, glm::value_ptr(rotationMatrix));
         }
 
         glBindVertexArray(gameObjects[i]->mesh->VAO);
@@ -166,6 +176,8 @@ int App::Renderer::Start() {
     GameObject gameObject3 = GameObject(&mesh3, &mesh3Material);
     gameObjects.push_back(&gameObject3);
 
+    // scratch or practice area for transforms
+    Transforms::run();
 
     while (!glfwWindowShouldClose(window)) {
         Render(window, gameObjects);
