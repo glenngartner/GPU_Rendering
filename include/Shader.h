@@ -14,6 +14,7 @@ namespace App {
 
     struct ShaderParameters {
         bool useVertexColors = false;
+        bool useTextureCoordinates = false;
         unsigned int vertexShader;
         unsigned int fragmentShader;
         unsigned int shaderProgram;

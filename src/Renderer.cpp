@@ -39,10 +39,18 @@ void App::Renderer::Render(GLFWwindow *window, std::vector<App::GameObject *> ga
     glClear(GL_COLOR_BUFFER_BIT);
 
     for (int i = 0; i < gameObjects.size(); i++){
+        if (gameObjects[i]->mesh->useTextureCoordinates){
+//            //TODO: add condition to check for presence of each texture type (ie: albedo)
+            glActiveTexture(GL_TEXTURE0);
+            glBindTexture(GL_TEXTURE_2D, gameObjects[i]->material->albedoTexture.glTexture);
+        }
+
         glUseProgram(gameObjects[i]->material->shader.shaderProgram);
+
         if (!gameObjects[i]->mesh->useVertexColors){
             gameObjects[i]->material->useAlbedoColor();
         }
+
         glBindVertexArray(gameObjects[i]->mesh->VAO);
         glDrawElements(GL_TRIANGLES, gameObjects[i]->mesh->indices.size(), GL_UNSIGNED_INT, 0);
     }
@@ -86,7 +94,6 @@ int App::Renderer::Start() {
     Mesh mesh1 = Mesh();
     MaterialParams mesh1MaterialParams = {};
     mesh1MaterialParams.albedoColor = {1.0f, 0.8f, 0.0f};
-    mesh1MaterialParams.albedoTexture = Texture("../assets/brick_all_render.png");
     Material mesh1Material = Material(&mesh1, &mesh1MaterialParams);
     GameObject gameObject1 = GameObject(&mesh1, &mesh1Material);
     gameObjects.push_back(&gameObject1);
@@ -105,10 +112,10 @@ int App::Renderer::Start() {
 
     // mesh 3 uses vertex colors
     std::vector<float> mesh3Verts = {
-            // vert location    //vert color
-            -1.0f, 0.0f, 1.0f,  1.0f, 0.0f, 0.0f,
-            -0.5f, 1.0f, 1.0f,  0.0f, 1.0f, 0.0f,
-            0.0f, 0.0f, 1.0f,   0.0f, 0.0f, 1.0f
+            // vert location    //vert color        // texture coordinates
+            -1.0f, 0.0f, 1.0f,  1.0f, 0.0f, 0.0f,   0.5f, 1.0f,
+            -0.5f, 1.0f, 1.0f,  0.0f, 1.0f, 0.0f,   1.0f, 0.0f,
+            0.0f, 0.0f, 1.0f,   0.0f, 0.0f, 1.0f,   0.0f, 0.0f
     };
 
     std::vector<int> mesh3Indices = {0, 1, 2};
@@ -116,10 +123,12 @@ int App::Renderer::Start() {
     Mesh mesh3 = Mesh(mesh3Verts, mesh3Indices);
     MaterialParams mesh3MaterialParams = {};
     ShaderParameters mesh3ShaderParams = {};
-    mesh3ShaderParams.vertexSourceFileLocation = "../Shaders/vertexColor.vert.glsl";
-    mesh3ShaderParams.fragmentSourceFileLocation = "../Shaders/vertexColor.frag.glsl";
+    mesh3ShaderParams.vertexSourceFileLocation = "../Shaders/albedoTexture.vert.glsl";
+    mesh3ShaderParams.fragmentSourceFileLocation = "../Shaders/albedoTexture.frag.glsl";
     mesh3ShaderParams.useVertexColors = true;
+    mesh3ShaderParams.useTextureCoordinates = true;
     mesh3MaterialParams.shaderParameters = &mesh3ShaderParams;
+    mesh3MaterialParams.albedoTexture = Texture("../assets/brick_all_render.png", &mesh3);
     Material mesh3Material = Material(&mesh3, &mesh3MaterialParams);
     GameObject gameObject3 = GameObject(&mesh3, &mesh3Material);
     gameObjects.push_back(&gameObject3);

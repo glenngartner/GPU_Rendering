@@ -16,7 +16,10 @@ App::Shader::Shader() {
 App::Shader::Shader(App::Mesh *mesh, App::ShaderParameters *shaderParameters) {
     this->mesh = mesh;
 
-    if (shaderParameters != nullptr){this->mesh->useVertexColors = shaderParameters->useVertexColors;}
+    if (shaderParameters != nullptr){
+        this->mesh->useVertexColors = shaderParameters->useVertexColors;
+        this->mesh->useTextureCoordinates = shaderParameters->useTextureCoordinates;
+    }
 
     this->mesh->initVertexData();
 

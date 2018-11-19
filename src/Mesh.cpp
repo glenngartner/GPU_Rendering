@@ -65,15 +65,25 @@ void App::Mesh::initVertexData() {
 
     // tell openGL how to interpret the vertex data in the VBO
 
-    if (!this->useVertexColors) {
-        glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void *) 0);
+    if (this->useVertexColors && this->useTextureCoordinates) {
+        glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void *) 0);
         glEnableVertexAttribArray(0);
-    } else {
+
+        glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void *) (3 * sizeof(float)));
+        glEnableVertexAttribArray(1);
+
+        glVertexAttribPointer(2, 2, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void *)(6 * sizeof(float)));
+        glEnableVertexAttribArray(2);
+    } else if (this->useVertexColors && !this->useTextureCoordinates){
         glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void *) 0);
         glEnableVertexAttribArray(0);
 
         glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void *) (3 * sizeof(float)));
         glEnableVertexAttribArray(1);
+
+    } else {
+        glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void *) 0);
+        glEnableVertexAttribArray(0);
     }
 
     // set the element buffer as the current buffer state, since we're rendering with indices

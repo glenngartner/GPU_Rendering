@@ -6,19 +6,22 @@
 #define GPU_RENDERING_TEXTURE_H
 
 #include <string>
+#include "Mesh.h"
 
 namespace App {
 
     class Texture {
     public:
         Texture();
-        Texture(const char *imageLocation);
+        Texture(const char *imageLocation, Mesh *mesh);
 
         int width, height, channels;
         unsigned char *imageData;
+        unsigned int glTexture;
 
     private:
         void loadImage(const char *imageLocation);
+        void generateGLTexture(Mesh *mesh);
     };
 }
 

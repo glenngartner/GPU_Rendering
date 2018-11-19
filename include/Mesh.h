@@ -19,6 +19,7 @@ namespace App {
         std::vector<int> indices;
         unsigned int VAO;
         bool useVertexColors = false;
+        bool useTextureCoordinates = false;
         void initVertexData();
     private:
         std::vector<float> verts;
