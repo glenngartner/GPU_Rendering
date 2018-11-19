@@ -3,3 +3,26 @@
 //
 
 #include "Material.h"
+
+App::Material::Material(Mesh *mesh, MaterialParams *materialParams) {
+    if (materialParams == nullptr){
+        this->shader = Shader(mesh);
+    } else{
+        if (materialParams->albedoColor.x != -1){ this->albedoColor = materialParams->albedoColor;}
+        if (materialParams->roughnessValue!= -1.0f){ this->roughnessValue = materialParams->roughnessValue;}
+        if (materialParams->metalnessValue!= -1.0f){ this->metalnessValue = materialParams->metalnessValue;}
+        if (materialParams->albedoTexture.imageData != nullptr){this->albedoTexture = materialParams->albedoTexture;}
+        if (materialParams->roughnessTexture.imageData != nullptr){this->roughnessTexture = materialParams->roughnessTexture;}
+        if (materialParams->metalnessTexture.imageData != nullptr){this->metalnessTexture = materialParams->metalnessTexture;}
+        if (materialParams->ambientOcclusionTexture.imageData != nullptr){this->ambientOcclusionTexture = materialParams->ambientOcclusionTexture;}
+
+        this->shader = Shader(mesh, materialParams->shaderParameters);
+
+        materialParams = nullptr;
+    }
+}
+
+void App::Material::useAlbedoColor() {
+    int meshColorUniform = glGetUniformLocation(this->shader.shaderProgram, "meshColor");
+    glUniform4f(meshColorUniform, this->albedoColor.x, this->albedoColor.y, this->albedoColor.z, 1.0f);
+}

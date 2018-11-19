@@ -9,6 +9,8 @@
 #include <Renderer.h>
 #include "GameObject.h"
 #include "Mesh.h"
+#include "Material.h"
+#include "Texture.h"
 
 
 void App::Renderer::Render(GLFWwindow *window) {
@@ -37,9 +39,9 @@ void App::Renderer::Render(GLFWwindow *window, std::vector<App::GameObject *> ga
     glClear(GL_COLOR_BUFFER_BIT);
 
     for (int i = 0; i < gameObjects.size(); i++){
-        glUseProgram(gameObjects[i]->shader->shaderProgram);
+        glUseProgram(gameObjects[i]->material->shader.shaderProgram);
         if (!gameObjects[i]->mesh->useVertexColors){
-            gameObjects[i]->shader->useMeshColor();
+            gameObjects[i]->material->useAlbedoColor();
         }
         glBindVertexArray(gameObjects[i]->mesh->VAO);
         glDrawElements(GL_TRIANGLES, gameObjects[i]->mesh->indices.size(), GL_UNSIGNED_INT, 0);
@@ -82,8 +84,11 @@ int App::Renderer::Start() {
     std::vector<GameObject *> gameObjects = {};
 
     Mesh mesh1 = Mesh();
-    Shader mesh1Shader = Shader(&mesh1);
-    GameObject gameObject1 = GameObject(&mesh1, &mesh1Shader);
+    MaterialParams mesh1MaterialParams = {};
+    mesh1MaterialParams.albedoColor = {1.0f, 0.8f, 0.0f};
+    mesh1MaterialParams.albedoTexture = Texture("../assets/brick_all_render.png");
+    Material mesh1Material = Material(&mesh1, &mesh1MaterialParams);
+    GameObject gameObject1 = GameObject(&mesh1, &mesh1Material);
     gameObjects.push_back(&gameObject1);
 
     // make gameobject 2
@@ -94,8 +99,8 @@ int App::Renderer::Start() {
     };
     std::vector<int> mesh2Indices = {0, 1, 2};
     Mesh mesh2 = Mesh(mesh2Verts, mesh2Indices);
-    Shader mesh2Shader = Shader(&mesh2);
-    GameObject gameObject2 = GameObject(&mesh2, &mesh2Shader);
+    Material mesh2Material = Material(&mesh2);
+    GameObject gameObject2 = GameObject(&mesh2, &mesh2Material);
     gameObjects.push_back(&gameObject2);
 
     // mesh 3 uses vertex colors
@@ -109,12 +114,14 @@ int App::Renderer::Start() {
     std::vector<int> mesh3Indices = {0, 1, 2};
 
     Mesh mesh3 = Mesh(mesh3Verts, mesh3Indices);
+    MaterialParams mesh3MaterialParams = {};
     ShaderParameters mesh3ShaderParams = {};
     mesh3ShaderParams.vertexSourceFileLocation = "../Shaders/vertexColor.vert.glsl";
     mesh3ShaderParams.fragmentSourceFileLocation = "../Shaders/vertexColor.frag.glsl";
     mesh3ShaderParams.useVertexColors = true;
-    Shader mesh3Shader = Shader(&mesh3, &mesh3ShaderParams);
-    GameObject gameObject3 = GameObject(&mesh3, &mesh3Shader);
+    mesh3MaterialParams.shaderParameters = &mesh3ShaderParams;
+    Material mesh3Material = Material(&mesh3, &mesh3MaterialParams);
+    GameObject gameObject3 = GameObject(&mesh3, &mesh3Material);
     gameObjects.push_back(&gameObject3);
 
 

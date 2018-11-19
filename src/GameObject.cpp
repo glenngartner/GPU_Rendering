@@ -6,7 +6,7 @@
 
 #include "GameObject.h"
 
-App::GameObject::GameObject(App::Mesh *mesh, App::Shader *shader) {
+App::GameObject::GameObject(App::Mesh *mesh, Material *material) {
     this->mesh = mesh;
-    this->shader = shader;
+    this->material = material;
 }

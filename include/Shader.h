@@ -28,15 +28,11 @@ namespace App {
     public:
         Mesh *mesh;
         unsigned int shaderProgram;
-
+        Shader();
         Shader(App::Mesh *mesh, App::ShaderParameters *shaderParameters = nullptr);
-
-        void useMeshColor();
-
     private:
         unsigned int vertexShader;
         unsigned int fragmentShader;
-        std::vector<float> color = {1.0f, 0.75f, 0.25f};
         std::string vertexShaderSource;
         std::string fragmentShaderSource;
         const char *vertexSourceFileLocation;

@@ -7,14 +7,15 @@
 
 #include "Mesh.h"
 #include "Shader.h"
+#include "Material.h"
 
 namespace App {
 
     class GameObject {
     public:
-        GameObject(Mesh *mesh, Shader *shader);
+        GameObject(Mesh *mesh, Material *material);
         Mesh *mesh;
-        Shader *shader;
+        Material *material;
     };
 }
 

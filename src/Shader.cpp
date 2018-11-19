@@ -9,6 +9,10 @@
 #include "Shader.h"
 
 
+App::Shader::Shader() {
+
+}
+
 App::Shader::Shader(App::Mesh *mesh, App::ShaderParameters *shaderParameters) {
     this->mesh = mesh;
 
@@ -128,9 +132,6 @@ unsigned int App::Shader::createShaderProgram(unsigned int vertexShader, unsigne
     return shaderProgram;
 }
 
-void App::Shader::useMeshColor() {
-    int meshColorUniform = glGetUniformLocation(this->shaderProgram, "meshColor");
-    glUniform4f(meshColorUniform, this->color[0], this->color[1], this->color[2], 1.0f);
-}
+
 
 
