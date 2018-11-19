@@ -12,9 +12,9 @@
 App::Texture::Texture() {
 }
 
-App::Texture::Texture(const char *imageLocation, Mesh *mesh) {
+App::Texture::Texture(const char *imageLocation) {
     this->loadImage(imageLocation);
-    this->generateGLTexture(mesh);
+    this->generateGLTexture();
 }
 
 
@@ -22,8 +22,7 @@ void App::Texture::loadImage(const char *imageLocation) {
    this->imageData = stbi_load(imageLocation, &this->width, &this->height, &this->channels, STBI_rgb);
 }
 
-void App::Texture::generateGLTexture(Mesh *mesh) {
-//    glBindVertexArray(mesh->VAO);
+void App::Texture::generateGLTexture() {
     unsigned int texture;
     glGenTextures(1, &texture);
     this->glTexture = texture;
